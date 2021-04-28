@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "email": "micaelacolpi@yahoo.com",
+            "name": "Micaela colpi",
+            "id": 1
+        },
+        {
+            "email": "eviemaes@em.com",
+            "name": "Evie Maes",
+            "id": 2
+        },
+        {
+            "email": "noa@noa.com",
+            "name": "noa maes",
+            "id": 3
+        }
+    ]
+}
