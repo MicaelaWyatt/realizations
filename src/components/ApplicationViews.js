@@ -1,6 +1,7 @@
 import React from "react"
 import { Route, Router } from "react-router-dom"
 import { HomeView } from "./home/HomeView"
+import { Portfolio } from "./portfolio/Portfolio"
 
 
 export const ApplicationViews = () => {
@@ -12,7 +13,7 @@ export const ApplicationViews = () => {
       </Route>
 
       <Route path="/portfolio">
-        
+        < Portfolio />
       </Route>
 
       <Route path="/goals">
