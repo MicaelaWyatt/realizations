@@ -1,11 +1,11 @@
 import React from "react"
 
-export const SelfGratitudeCard = () => {
+export const SelfGratitudeCard = ({gratitude, handleDeleteGratitude}) => {
     return(
         <section className="SelfGratitude-card">
-            <div>I love that I listen to others and give reliable advice </div>
-            <div>timestamp</div>
-            <button className="delete-bttn" type="button">Article</button>
+            <div>{gratitude.content} </div>
+            <div>{gratitude.timestamp}</div>
+            <button className="delete-bttn" type="button" onClick={() => handleDeleteGratitude(gratitude.id)}>Delete</button>
       <button className="edit-bttn" type="button" >Edit</button>
         </section>
     )

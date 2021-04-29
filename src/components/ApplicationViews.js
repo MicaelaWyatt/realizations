@@ -1,7 +1,9 @@
 import React from "react"
-import { Route, Router } from "react-router-dom"
+import { Route } from "react-router-dom"
 import { HomeView } from "./home/HomeView"
 import { Portfolio } from "./portfolio/Portfolio"
+import { CheckInAddForm } from "./portfolio/CheckInAddForm"
+import { SelfGratitudeAddForm } from "./portfolio/SelfGratitudeForm"
 
 
 export const ApplicationViews = () => {
@@ -12,8 +14,16 @@ export const ApplicationViews = () => {
         <HomeView />
       </Route>
 
-      <Route path="/portfolio">
+      <Route exact path="/portfolio">
         < Portfolio />
+      </Route>
+
+      <Route exact path="/portfolio/create">
+          <CheckInAddForm/>
+      </Route>
+
+      <Route exact path="/portfolio/create2">
+          <SelfGratitudeAddForm/>
       </Route>
 
       <Route path="/goals">

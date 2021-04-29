@@ -1,22 +1,22 @@
 const remoteURL = "http://localhost:8088"
 
-export const getCheckInById = (selfGratitudeId) => {
+export const getSelfGratitudeInById = (selfGratitudeId) => {
     return fetch(`${remoteURL}/selfGratitude/${selfGratitudeId}`)
     .then(res => res.json())
 }
 
-export const getAllCheckIns = () => {
+export const getAllSelfGratitude = () => {
     return fetch(`${remoteURL}/selfGratitude`)
     .then(res => res.json())
 }
 
-export const deleteCheckIn = (id) => {
+export const deleteSelfGratitude = (id) => {
     return fetch(`${remoteURL}/selfGratitude/${id}`,{
         method: "DELETE"
     }).then(result =>result.json())
 }
 
-export const addCheckIn = (newselfGratitude) => {
+export const addSelfGratitude = (newselfGratitude) => {
     return fetch(`${remoteURL}/selfGratitude`,{
         method:"POST",
         headers:{
@@ -26,7 +26,7 @@ export const addCheckIn = (newselfGratitude) => {
     }).then(res => res.JSON)
 }
 
-export const updateCheckIn = (editedSelfGratitude) => {
+export const updateSelfGratitude = (editedSelfGratitude) => {
     return fetch(`${remoteURL}/selfGratitude/${editedSelfGratitude.id}`, {
       method: "PUT",
       headers: {

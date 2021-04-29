@@ -1,24 +1,52 @@
 {
-    "users": [
-        {
-            "email": "micaelacolpi@yahoo.com",
-            "name": "Micaela colpi",
-            "id": 1
-        },
-        {
-            "email": "eviemaes@em.com",
-            "name": "Evie Maes",
-            "id": 2
-        },
-        {
-            "email": "noa@noa.com",
-            "name": "noa maes",
-            "id": 3
-        }
-    ],
-    "checkins": [],
-    "selfGratitude":[],
-    "forgiveness":[],
-    "goals":[],
-    "recommended":[]
+  "users": [
+    {
+      "email": "micaelacolpi@yahoo.com",
+      "name": "Micaela colpi",
+      "id": 1
+    },
+    {
+      "email": "eviemaes@em.com",
+      "name": "Evie Maes",
+      "id": 2
+    },
+    {
+      "email": "noa@noa.com",
+      "name": "noa maes",
+      "id": 3
+    }
+  ],
+  "checkins": [
+    {
+      "userId": 1,
+      "title": "sad",
+      "description": "nothing in my life is going right",
+      "timestamp": "04/28/2021, 02:16:24 PM",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "things aren't too bad at the moment",
+      "description": "life isn't great but things have been worse",
+      "timestamp": "04/28/2021, 02:25:42 PM",
+      "id": 3
+    }
+  ],
+  "selfGratitude": [
+    {
+      "userId": 1,
+      "content": "wait is this working now",
+      "timestamp": "04/29/2021, 11:04:55 AM",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "content": "i hope no error msg pop up",
+      "timestamp": "04/29/2021, 11:34:46 AM",
+      "id": 2
+    }
+  ],
+  "forgiveness": [],
+  "goals": [],
+  "recommended": []
 }
