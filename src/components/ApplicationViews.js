@@ -6,6 +6,7 @@ import { CheckInAddForm } from "./portfolio/CheckInAddForm"
 import { CheckInEditForm } from "./portfolio/CheckInEdit"
 import { SelfGratitudeAddForm } from "./portfolio/SelfGratitudeForm"
 import { SelfGratitudeEditForm } from "./portfolio/SelfGratitudeEdit"
+import { CommunityList } from "./community/CommunityList"
 
 
 export const ApplicationViews = () => {
@@ -43,7 +44,7 @@ export const ApplicationViews = () => {
 
       </Route>
       <Route path="/community">
-          
+          <CommunityList/>
       </Route>
     </>
   )

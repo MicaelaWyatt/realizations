@@ -26,13 +26,6 @@
     },
     {
       "userId": 1,
-      "title": "things aren't too bad at the moment",
-      "description": "life isn't great but things have been worse",
-      "timestamp": "04/28/2021, 02:25:42 PM",
-      "id": 3
-    },
-    {
-      "userId": 1,
       "title": "sad",
       "description": "things went bad today with my mother, I need to work on my communication skills",
       "timestamp": "04/29/2021, 03:58:44 PM",
@@ -61,5 +54,13 @@
   ],
   "forgiveness": [],
   "goals": [],
-  "recommended": []
+  "recommended": [
+    {
+      "userId": 1,
+      "note": "yay the timestamp updates to the edit",
+      "link":"https://www.huffpost.com/entry/coronavirus-dog-separation-anxiety-pet_n_600af3fac5b6d64153ab53cb",
+      "timestamp": "04/29/2021, 03:11:40 PM",
+      "id": 1
+    }
+  ]
 }
