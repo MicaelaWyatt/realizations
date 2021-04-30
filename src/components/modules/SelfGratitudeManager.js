@@ -1,6 +1,6 @@
 const remoteURL = "http://localhost:8088"
 
-export const getSelfGratitudeInById = (selfGratitudeId) => {
+export const getSelfGratitudeById = (selfGratitudeId) => {
     return fetch(`${remoteURL}/selfGratitude/${selfGratitudeId}`)
     .then(res => res.json())
 }

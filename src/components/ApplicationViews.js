@@ -3,7 +3,9 @@ import { Route } from "react-router-dom"
 import { HomeView } from "./home/HomeView"
 import { Portfolio } from "./portfolio/Portfolio"
 import { CheckInAddForm } from "./portfolio/CheckInAddForm"
+import { CheckInEditForm } from "./portfolio/CheckInEdit"
 import { SelfGratitudeAddForm } from "./portfolio/SelfGratitudeForm"
+import { SelfGratitudeEditForm } from "./portfolio/SelfGratitudeEdit"
 
 
 export const ApplicationViews = () => {
@@ -22,8 +24,16 @@ export const ApplicationViews = () => {
           <CheckInAddForm/>
       </Route>
 
+      <Route exact path="/portfolio/:checkInId(\d+)/edit">
+          <CheckInEditForm/>
+      </Route>
+
       <Route exact path="/portfolio/create2">
           <SelfGratitudeAddForm/>
+      </Route>
+
+      <Route exact path="/portfolio/:gratitudeId(\d+)/edit">
+          <SelfGratitudeEditForm/>
       </Route>
 
       <Route path="/goals">

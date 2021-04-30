@@ -30,6 +30,13 @@
       "description": "life isn't great but things have been worse",
       "timestamp": "04/28/2021, 02:25:42 PM",
       "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "sad",
+      "description": "things went bad today with my mother, I need to work on my communication skills",
+      "timestamp": "04/29/2021, 03:58:44 PM",
+      "id": 4
     }
   ],
   "selfGratitude": [
@@ -41,9 +48,15 @@
     },
     {
       "userId": 1,
-      "content": "i hope no error msg pop up",
-      "timestamp": "04/29/2021, 11:34:46 AM",
-      "id": 2
+      "id": 2,
+      "content": "I don't see any errors! does the timestamp change",
+      "timestamp": "04/29/2021, 03:11:33 PM"
+    },
+    {
+      "userId": 1,
+      "content": "yay the timestamp updates to the edit",
+      "timestamp": "04/29/2021, 03:11:40 PM",
+      "id": 3
     }
   ],
   "forgiveness": [],
