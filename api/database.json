@@ -19,10 +19,10 @@
   "checkins": [
     {
       "userId": 1,
-      "title": "sad",
+      "id": 1,
+      "title": "contemplation",
       "description": "nothing in my life is going right",
-      "timestamp": "04/28/2021, 02:16:24 PM",
-      "id": 1
+      "timestamp": "05/03/2021, 10:50:02 AM"
     },
     {
       "userId": 1,
@@ -84,14 +84,6 @@
       "link": "https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr",
       "timestamp": "04/30/2021, 03:38:05 PM",
       "id": 2
-    },
-    {
-      "userId": 1,
-      "title": "taking a break",
-      "note": "I couldn't type in these input fields but after 3 minutes of looking I found the problem ",
-      "link": "https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr",
-      "timestamp": "05/03/2021, 09:17:19 AM",
-      "id": 3
     }
   ]
 }

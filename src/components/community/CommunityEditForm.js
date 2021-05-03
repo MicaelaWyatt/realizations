@@ -57,13 +57,13 @@ export const RecommendEditForm = () => {
         <fieldset>
             <div>
                 <label className="recommendation-form-label">Note</label>
-                <input type="text" id="description" onChange={handleFeildChange} required autoFocus className="form-control" value={recommendation.description} ></input>
+                <input type="text" id="description" onChange={handleFeildChange} required autoFocus className="form-control" value={recommendation.note} ></input>
             </div>
         </fieldset>
         <fieldset>
             <div>
             <label className="eventFormLabel" >URL:</label>
-                    <input type="text" id="url" onChange={handleFeildChange} required autoFocus className="form-control" placeholder="URL" value={recommendation.url}/>
+                    <input type="text" id="url" onChange={handleFeildChange} required autoFocus className="form-control" placeholder="URL" value={recommendation.link}/>
             </div>
         </fieldset>
         <button className="saveRecommendation" onClick={updateExistingRecommendation}>record checkin</button>
