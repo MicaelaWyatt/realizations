@@ -1,19 +1,19 @@
 import React from "react"
-// import {useHistory} from "react-router-dom"
+import {useHistory} from "react-router-dom"
 
-export const CommunityCard = () => {
+export const CommunityCard = ({recommendation, handleDeleteRecommendation}) => {
+    const history = useHistory()
     return(
         <section className="SelfGratitude-card">
-            <div>users name who posted </div>
-            <div>hey guys i just wanted to share this podcast with you. its great for anyone who likes manifesting and writing their goals down </div>
+            <div>{recommendation.title}</div>
+            <div>{recommendation.note} </div>
             <div className="currentUser-recommendation_url"><a className="card-url" >Click Here To Read More</a></div>
-            <button className="delete-bttn" type="button" >Delete</button>
-            <button className="edit-bttn" type="button" >Edit</button>
+            <button className="delete-bttn" type="button" onClick={() => handleDeleteRecommendation(recommendation.id)} >Delete</button>
+            <button className="edit-bttn" type="button"  onClick={() => history.push(`/community/${(recommendation.id)}/edit`)}>Edit</button>
         </section>
     )
 }
 
-// const history = useHistory()
 // const currentLoggedInUser = parseInt(sessionStorage.getItem("realization_user"))
 // if(currentLoggedInUser === article.userId)
 
