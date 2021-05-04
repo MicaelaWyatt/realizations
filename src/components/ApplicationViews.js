@@ -11,6 +11,8 @@ import { ForgivenessAddForm } from "./forgiveness/ForgivenessAddForm"
 import { CommunityList } from "./community/ComunityPage"
 import { RecommenedAddForm } from "./community/CommunityAdd"
 import { RecommendEditForm } from "./community/CommunityEditForm"
+import { GoalsAddForm } from "./goals/GoalsAddForm"
+import { GoalsList } from "./goals/GoalsList"
 
 
 export const ApplicationViews = () => {
@@ -41,10 +43,15 @@ export const ApplicationViews = () => {
           <SelfGratitudeEditForm/>
       </Route>
 
-      <Route path="/goals">
-
+      <Route exact path="/goals">
+        <GoalsList/>
       </Route>
-      <Route path="/forgiveness">
+
+      <Route exact path="/goals/create">
+          <GoalsAddForm/>
+      </Route>
+
+      <Route exact path="/forgiveness">
           <ForgivenessList/>
       </Route>
 

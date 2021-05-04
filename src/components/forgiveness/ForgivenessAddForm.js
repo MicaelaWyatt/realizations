@@ -5,31 +5,31 @@ import { addForgiveness } from "../modules/ForgivenessManager"
 export const ForgivenessAddForm = () => {
     const history = useHistory();
     const currentUser = parseInt(sessionStorage.getItem("realization_user"));
-    const [isLoading, setIsLoading]= useState(false);
-
+    
     const [forgiveness, setForgiveness] = useState({ 
         userId:currentUser,
         who:"",
         offense:"",
         resolved:false
     });
-
+    
+    const [isLoading, setIsLoading]= useState(false);
+    
     const handleControlledInputChange = (event) => {
         const newForgiveness = {...forgiveness}
-        let selectedVal = event.target.valuse
+        let selectedVal = event.target.value
         if (event.target.id.includes("Id")) {
             selectedVal= parseInt(selectedVal)
         }
         newForgiveness[event.target.id] = selectedVal
         setForgiveness(newForgiveness)
     }
+
 const handleClickSaveForgiveness = (event) => {
         event.preventDefault();
         setIsLoading(true)
-        const userId = currentUser;
         const who = forgiveness.who;
         const offense = forgiveness.offense;
-        const resolved= false;
     
         addForgiveness(forgiveness)
         .then(()=> history.push("/forgiveness"))
