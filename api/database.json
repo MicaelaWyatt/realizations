@@ -22,7 +22,7 @@
       "id": 1,
       "title": "contemplation",
       "description": "nothing in my life is going right",
-      "timestamp": "05/03/2021, 10:50:02 AM"
+      "timestamp": "05/04/2021, 03:08:14 PM"
     },
     {
       "userId": 1,
@@ -78,17 +78,17 @@
   "goals": [
     {
       "userId": 1,
+      "id": 1,
       "goal": "I want to code on my off time",
       "steps": "instead of watching TikTok I want to code and work on my linked in",
-      "timeStamp": "05/04/2021, 01:14:59 PM",
-      "id": 1
+      "timestamp": "05/04/2021, 03:49:38 PM"
     },
     {
       "userId": 1,
+      "id": 2,
       "goal": "I want to walk outside more",
-      "steps": "on my lunch break I am going to walk before I eat ",
-      "timeStamp": "05/04/2021, 01:28:57 PM",
-      "id": 2
+      "steps": "instead of watching TikTok I want to code and work on my linked in",
+      "timestamp": "05/04/2021, 03:48:58 PM"
     }
   ],
   "recommended": [
