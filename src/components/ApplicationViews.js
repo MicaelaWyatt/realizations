@@ -6,6 +6,8 @@ import { CheckInAddForm } from "./portfolio/CheckInAddForm"
 import { CheckInEditForm } from "./portfolio/CheckInEdit"
 import { SelfGratitudeAddForm } from "./portfolio/SelfGratitudeForm"
 import { SelfGratitudeEditForm } from "./portfolio/SelfGratitudeEdit"
+import { ForgivenessList } from "./forgiveness/ForgivenessList"
+import { ForgivenessAddForm } from "./forgiveness/ForgivenessAddForm"
 import { CommunityList } from "./community/ComunityPage"
 import { RecommenedAddForm } from "./community/CommunityAdd"
 import { RecommendEditForm } from "./community/CommunityEditForm"
@@ -43,8 +45,13 @@ export const ApplicationViews = () => {
 
       </Route>
       <Route path="/forgiveness">
-
+          <ForgivenessList/>
       </Route>
+
+      <Route exact path="/forgiveness/create">
+          <ForgivenessAddForm/>
+      </Route>
+
       <Route exact path="/community">
           <CommunityList/>
       </Route>
