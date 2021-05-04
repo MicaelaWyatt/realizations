@@ -14,7 +14,7 @@ export const RecommendEditForm = () => {
     const {recommendationId} = useParams();
     const history = useHistory();
     
-    const handleFeildChange = (event) => {
+    const handleFieldChange = (event) => {
         const stateToChange = {...recommendation}
         stateToChange[event.target.id]= event.target.value
         setRecommendation(stateToChange)
@@ -51,19 +51,19 @@ export const RecommendEditForm = () => {
         <fieldset>
             <div>
                 <label className="recommendation-form-label">Title</label>
-                <input type="text" id="title" onChange={handleFeildChange} required autoFocus className="form-control" value={recommendation.title} ></input>
+                <input type="text" id="title" onChange={handleFieldChange} required autoFocus className="form-control" value={recommendation.title} ></input>
             </div>
         </fieldset>
         <fieldset>
             <div>
                 <label className="recommendation-form-label">Note</label>
-                <input type="text" id="description" onChange={handleFeildChange} required autoFocus className="form-control" value={recommendation.note} ></input>
+                <input type="text" id="description" onChange={handleFieldChange} required autoFocus className="form-control" value={recommendation.note} ></input>
             </div>
         </fieldset>
         <fieldset>
             <div>
             <label className="eventFormLabel" >URL:</label>
-                    <input type="text" id="url" onChange={handleFeildChange} required autoFocus className="form-control" placeholder="URL" value={recommendation.link}/>
+                    <input type="text" id="url" onChange={handleFieldChange} required autoFocus className="form-control" placeholder="URL" value={recommendation.link}/>
             </div>
         </fieldset>
         <button className="saveRecommendation" onClick={updateExistingRecommendation}>record checkin</button>

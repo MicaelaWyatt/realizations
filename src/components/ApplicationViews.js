@@ -13,6 +13,7 @@ import { RecommenedAddForm } from "./community/CommunityAdd"
 import { RecommendEditForm } from "./community/CommunityEditForm"
 import { GoalsAddForm } from "./goals/GoalsAddForm"
 import { GoalsList } from "./goals/GoalsList"
+import { GoalEditForm } from "./goals/GoalsEditForm"
 
 
 export const ApplicationViews = () => {
@@ -39,7 +40,7 @@ export const ApplicationViews = () => {
           <SelfGratitudeAddForm/>
       </Route>
 
-      <Route exact path="/portfolio/:gratitudeId(\d+)/edit">
+      <Route exact path="/portfolio/selfGratitude/:gratitudeId(\d+)/edit">
           <SelfGratitudeEditForm/>
       </Route>
 
@@ -49,6 +50,10 @@ export const ApplicationViews = () => {
 
       <Route exact path="/goals/create">
           <GoalsAddForm/>
+      </Route>
+
+      <Route exact path="/goals/:goalId(\d+)/edit">
+          <GoalEditForm/>
       </Route>
 
       <Route exact path="/forgiveness">
