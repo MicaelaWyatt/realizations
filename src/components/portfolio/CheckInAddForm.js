@@ -8,8 +8,9 @@ export const CheckInAddForm = () => {
 
     const [checkin, setCheckin] = useState({
         userId:currentUser,
-        title:"",
-        description:"",
+        theBest:"",
+        theWorst:"",
+        oneThing:"",
         timestamp:new Intl.DateTimeFormat('en-US', {year: 'numeric', month: '2-digit',day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit'}).format(timeStamp)        
     });
 
@@ -32,9 +33,10 @@ export const CheckInAddForm = () => {
         event.preventDefault() //Prevents the browser from submitting the form
         setIsLoading(true)
         // currentUserId:  parseInt(sessionStorage.getItem("nutshell_user")
-        const title = checkin.title
-        const description= checkin.description
-        if (title === "" || description === ""){
+        const theBest = checkin.theBest
+        const theWorst= checkin.theWorst
+        const oneThing= checkin.oneThing
+        if (theBest === "" || theWorst === ""|| oneThing === ""){
             window.alert("Please input more information")
         } else{
             addCheckIn(checkin)
@@ -44,17 +46,23 @@ export const CheckInAddForm = () => {
 
     return(
         <form className="checkIn-form">
-            <h2 className="checkIn-form-header">Wellbeing</h2>
+            <h2 className="checkIn-form-header">Check-in</h2>
             <fieldset>
                 <div>
-                    <label className="checkIn-form-label">title</label>
-                    <input type="text" id="title" onChange={handleControlledInputChange} required autoFocus className="form-control" value={checkin.title} ></input>
+                    <label className="checkIn-form-label">...The Best (thing,event,moment,memory)?</label>
+                    <input type="text" id="theBest" onChange={handleControlledInputChange} required autoFocus className="form-control" value={checkin.theBest} ></input>
                 </div>
             </fieldset>
             <fieldset>
                 <div>
-                    <label className="checkIn-form-label">description</label>
-                    <input type="text" id="description" onChange={handleControlledInputChange} required autoFocus className="form-control" value={checkin.description} ></input>
+                    <label className="checkIn-form-label">... The Worst?</label>
+                    <input type="text" id="theWorst" onChange={handleControlledInputChange} required autoFocus className="form-control" value={checkin.theWorst} ></input>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label className="checkIn-form-label">... One thing I can do differently to be a more effective/better person.</label>
+                    <input type="text" id="oneThing" onChange={handleControlledInputChange} required autoFocus className="form-control" value={checkin.oneThing} ></input>
                 </div>
             </fieldset>
             <button className="saveCheckIn" onClick={handleClickSaveCheckIn}>record checkin</button>
