@@ -69,10 +69,17 @@
   "forgiveness": [
     {
       "userId": 1,
-      "who": "mom",
+      "id": 1,
+      "who": "Noa",
       "offense": "for nagging me",
+      "resolved": false
+    },
+    {
+      "userId": 1,
+      "who": "Noa",
+      "offense": "for not being there when I was in high school",
       "resolved": false,
-      "id": 1
+      "id": 2
     }
   ],
   "goals": [
@@ -86,9 +93,9 @@
     {
       "userId": 1,
       "id": 2,
-      "goal": "I want to walk outside more",
+      "goal": "I want to walk in the mornings",
       "steps": "instead of watching TikTok I want to code and work on my linked in",
-      "timestamp": "05/04/2021, 03:48:58 PM"
+      "timestamp": "05/04/2021, 11:28:45 PM"
     }
   ],
   "recommended": [
