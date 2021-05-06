@@ -1,6 +1,6 @@
 
 
-export const InfoPortfolioModal = () => {
+export const Modal = props => {
     return(
         <div className="portfolio-modal">
             <div className="modal-content">
@@ -25,12 +25,28 @@ export const InfoCheckinModal = () => {
     )
 }
 
+export const InfoSelfGratitudeModal = () => {
+    return(
+        <div className="selfGratitude-modal">
+            <div className="modal-content">
+                <span className="close">&times;</span>
+                <p>
+                    The purpose of "Self Gratitude" is to acknowledge your accomplishments. 
+                    This could be anything from helping an old lady cross the street, to liking how you acted in a certain situation.
+                    Seeing your accomplishments can help cultivate a positive attitude, especially when times get tough.
+                </p>
+            </div>
+        </div>
+    )
+}
+
 export const InfoGoalsModal = () => {
     return(
         <div className="goals-modal">
             <div className="modal-content">
                 <span className="close">&times;</span>
                 <p>The purpose of the goals page is to write down short term or long term goals you have for your life. along with the steps you are going to take to make your goal happen.
+                    
                 </p>
             </div>
         </div>

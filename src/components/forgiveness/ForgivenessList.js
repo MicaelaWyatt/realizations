@@ -43,10 +43,15 @@ export const ForgivenessList = () => {
         getForgivenesses();
     },[])    
 
+    function forgivenessInfo() {
+        alert("Holding on to regret, pain, and resentment hurts others. But it also hurts you. The purpose of the Forgiveness page is to write down things you want to forgive people for, and to read each card until the statement becomes true. When you feel you can whole heartedly forgive the person for what they did then you can click the resolve button and your card will dissapear.")
+    
+}
 
     return(
         <>
         <h1>Forgiveness</h1>
+        <button type="button" className="info-button" onClick={forgivenessInfo} >info</button>
         <button type="button" className="add-Forgiveness-button" onClick={() => {history.push("/forgiveness/create")}}>add</button>
         <section>
             {forgivenesses.map(forgiveness =>{

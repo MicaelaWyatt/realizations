@@ -16,7 +16,16 @@
       "id": 3
     }
   ],
-  "checkins": [],
+  "checkins": [
+    {
+      "userId": 1,
+      "id": 1,
+      "theBest": "I recently quit my job at Dry Bar which has been a huge relief because now I can 100 percent focus on school",
+      "theWorst": "moving to Tennessee has been amazing but I miss seeing my friends and family. Seeing them every 6 months is not enough.",
+      "oneThing": "I could have more patients in stressful/ annoying situations.",
+      "timestamp": "05/05/2021, 02:25:12 PM"
+    }
+  ],
   "selfGratitude": [
     {
       "userId": 1,
