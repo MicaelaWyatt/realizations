@@ -14,6 +14,7 @@ export const GoalsList = () => {
     };
 
     const history = useHistory();
+    const currentUser = parseInt(sessionStorage.getItem("realization_user"));
 
     useEffect(()=>{
         getGoals();
@@ -24,12 +25,22 @@ export const GoalsList = () => {
         .then(()=> getAllGoals().then(setGoals))
     }
 
+    function goalInfo() {
+        alert("The purpose of the goals page is to write down short term or long term goals you have for your life. along with the steps you are going to take to make your goal happen.")
+    
+}
+
     return(
         <>
         <h1>Goals</h1>
+        <button type="button" className="info-button" onClick={goalInfo} >info</button>
         <button type="button" className="add-goal-button" id="goal-add" onClick={() => {history.push("/goals/create")}}>add</button>
         <section>
-            {goals.map(goal => <GoalsCard key={goal.id} goal={goal} handleDeleteGoal={handleDeleteGoal} />)}
+        {goals.map(goal =>{ 
+            if(goal.userId === currentUser){
+            return<GoalsCard key={goal.id} goal={goal} handleDeleteGoal={handleDeleteGoal}/>
+            }})}
+        
         </section>
         </>
     )

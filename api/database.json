@@ -20,30 +20,10 @@
     {
       "userId": 1,
       "id": 1,
-      "title": "contemplation",
-      "description": "nothing in my life is going right",
-      "timestamp": "05/04/2021, 03:08:14 PM"
-    },
-    {
-      "userId": 1,
-      "title": "sad",
-      "description": "things went bad today with my mother, I need to work on my communication skills",
-      "timestamp": "04/29/2021, 03:58:44 PM",
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "title": "happy",
-      "description": "today things are going way better than expected ",
-      "timestamp": "04/30/2021, 01:20:38 PM",
-      "id": 5
-    },
-    {
-      "userId": 1,
-      "title": "happy",
-      "description": "today things are going way better than expected ",
-      "timestamp": "04/30/2021, 01:20:38 PM",
-      "id": 6
+      "theBest": "I recently quit my job at Dry Bar which has been a huge relief because now I can 100 percent focus on school",
+      "theWorst": "moving to Tennessee has been amazing but I miss seeing my friends and family. Seeing them every 6 months is not enough.",
+      "oneThing": "I could have more patients in stressful/ annoying situations.",
+      "timestamp": "05/05/2021, 02:25:12 PM"
     }
   ],
   "selfGratitude": [

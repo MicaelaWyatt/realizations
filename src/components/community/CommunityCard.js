@@ -7,7 +7,7 @@ export const CommunityCard = ({recommendation, handleDeleteRecommendation}) => {
         <section className="SelfGratitude-card">
             <div>{recommendation.title}</div>
             <div>{recommendation.note} </div>
-            <div className="currentUser-recommendation_url"><a className="card-url" >Click Here To Read More</a></div>
+            <div className="currentUser-recommendation_url"><a className="card-url" href={recommendation.link} >Click Here To Read More</a></div>
             <button className="delete-bttn" type="button" onClick={() => handleDeleteRecommendation(recommendation.id)} >Delete</button>
             <button className="edit-bttn" type="button"  onClick={() => history.push(`/community/${(recommendation.id)}/edit`)}>Edit</button>
         </section>
