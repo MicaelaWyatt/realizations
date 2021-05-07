@@ -3,6 +3,7 @@ import { useState} from "react"
 import {useHistory} from "react-router-dom"
 import { deleteRecommendation, getAllRecommendations } from "../modules/CommunityManager";
 import { CommunityCard } from "./CommunityCard"
+import "./Community.css" 
 
 export const CommunityList = () => {
     const [recommendations, setRecommendations] = useState([]);
@@ -30,10 +31,10 @@ function communityInfo() {
 
 return(
     <>
-    <h1>community</h1>
+    <h2>community</h2>
     <button type="button" className="info-button" onClick={communityInfo} >info</button>
     <button type="button" className="share-button" onClick={() => {history.push("/community/create")}}>share</button>
-    <section>
+    <section className="community-list">
         {recommendations.map(recommendation => <CommunityCard key={recommendation.id} recommendation={recommendation} handleDeleteRecommendation={handleDeleteRecommendation}/>)}
     </section>
     </>

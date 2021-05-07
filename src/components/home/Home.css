@@ -1,0 +1,18 @@
+h1{
+ color: #F2EFFF;
+ font-size: 130px!important;  
+ margin-left: 50px;
+ margin-top: 30px!important;
+ font-family: 'Roboto', sans-serif;
+}
+h3.definition{
+    margin-left: 58px;
+    font-family: 'Roboto', sans-serif;
+    color: #F2EFFF;
+}
+
+div.explination{
+    margin-left: 59px;
+    font-family: 'Roboto', sans-serif;
+    color: #F2EFFF;
+}

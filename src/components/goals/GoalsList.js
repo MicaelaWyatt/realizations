@@ -32,7 +32,7 @@ export const GoalsList = () => {
 
     return(
         <>
-        <h1>Goals</h1>
+        <h2>Goals</h2>
         <button type="button" className="info-button" onClick={goalInfo} >info</button>
         <button type="button" className="add-goal-button" id="goal-add" onClick={() => {history.push("/goals/create")}}>add</button>
         <section>
