@@ -4,7 +4,7 @@ import { SelfGratitudeCard } from "./SelfGratitudeCard"
 import { CheckInCard } from "./CheckInCard"
 import { deleteCheckIn, getAllCheckIns } from "../modules/CheckInManager"
 import { deleteSelfGratitude, getAllSelfGratitude} from "../modules/SelfGratitudeManager"
-
+import "./Portfolio.css"
 
 
 
@@ -59,22 +59,23 @@ function gratitudeInfo() {
 
     return(
         <>
-        <div>
+        <div className="user-info-new">
         <h2>Hello Micaela {currentUser.name}</h2>
         <button type="button" className="info-button" onClick={portfolioInfo} >info</button>
         <button type="button" className="newCheckin-bttn" onClick={() => {history.push("/portfolio/create")}}>new checkin</button>
         </div>
-            <h4>Check-ins</h4>
-            <button type="button" className="info-button" onClick={checkInInfo} >info</button>    
+       <section className="CheckInSection">
+            <h3 className="checkIn">Check-ins</h3>
+            <button type="button" className="checkIn-info-button" onClick={checkInInfo} >info</button>    
         <div className="wellbeing-list">
            {checkIns.map(checkIn => {
            if(checkIn.userId === currentUser) {
            return < CheckInCard key={checkIn.id} checkIn={checkIn} handleDeleteCheckIn={handleDeleteCheckIn}/>
         }
     })} 
-        </div>
+        </div></section>
         <aside className="SelfGratitude-list">
-            <h5>Self Gratitude</h5>
+            <h3>Self Gratitude</h3>
             <button type="button" className="info-button" onClick={gratitudeInfo} >info</button>
             <button type="button" className="newGratitude-bttn" onClick={() => {history.push("/portfolio/create2")}}>new gratitude</button>
             {gratitudes.map(gratitude =>{ 

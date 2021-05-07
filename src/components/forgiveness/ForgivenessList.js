@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { useHistory } from "react-router";
-import { deleteForgiveness, getAllForgiveness, updateForgiveness } from "../modules/ForgivenessManager";
+import { deleteForgiveness, getAllForgiveness, getForgivenessById, updateForgiveness } from "../modules/ForgivenessManager";
 
 import { ForgivenessCard } from "./ForgivenessCard"
 
@@ -21,23 +21,17 @@ export const ForgivenessList = () => {
         .then(()=> getAllForgiveness().then(setForgivenesses))
     }
 
-    const handleResolveClick = (event) => {
-        const forgivenessId = event.target.id.spit("--")[1]
-
-        getAllForgiveness()
-        .then(allForgivenesses=>{
-            const targetedForgiveness = allForgivenesses.find(forgiveness => forgiveness.id === parseInt(forgivenessId))
-            targetedForgiveness.resolved = true
-            return targetedForgiveness
-        })
-        .then(updatedForgiveness => {
-            updateForgiveness(updatedForgiveness)
-            .then(()=>{
-                getForgivenesses()
-            })
-
-        })
-    }
+  const handleResolveClick = (id) => {
+      getForgivenessById(id)
+      .then((retrievedForgiveness => {
+          if(retrievedForgiveness.resolved === false){
+              retrievedForgiveness.resolved = true;
+          }
+          updateForgiveness(retrievedForgiveness).then(() => getForgivenesses)
+          .then(getForgivenesses)
+          
+      }))
+  }
 
     useEffect(() => {
         getForgivenesses();
@@ -50,12 +44,12 @@ export const ForgivenessList = () => {
 
     return(
         <>
-        <h1>Forgiveness</h1>
+        <h2>Forgiveness</h2>
         <button type="button" className="info-button" onClick={forgivenessInfo} >info</button>
         <button type="button" className="add-Forgiveness-button" onClick={() => {history.push("/forgiveness/create")}}>add</button>
         <section>
             {forgivenesses.map(forgiveness =>{
-                if(forgiveness.resolved === false && forgiveness.userId === currentUser){
+                if(forgiveness.resolved === false && forgiveness.resolved === false && forgiveness.userId === currentUser){
                     return <ForgivenessCard key={forgiveness.id} forgiveness={forgiveness} handleResolveClick={handleResolveClick} handleDeleteForgiveness={handleDeleteForgiveness} />
                 }
             })}

@@ -21,9 +21,17 @@
       "userId": 1,
       "id": 1,
       "theBest": "I recently quit my job at Dry Bar which has been a huge relief because now I can 100 percent focus on school",
-      "theWorst": "moving to Tennessee has been amazing but I miss seeing my friends and family. Seeing them every 6 months is not enough.",
+      "theWorst": " Tennessee has been amazing but I miss seeing my friends and family. Seeing them every 6 months is not enough.",
       "oneThing": "I could have more patients in stressful/ annoying situations.",
-      "timestamp": "05/05/2021, 02:25:12 PM"
+      "timestamp": "05/06/2021, 10:30:00 AM"
+    },
+    {
+      "userId": 1,
+      "theBest": "I recently quit my job at Dry Bar which has been a huge relief because now I can 100 percent focus on school",
+      "theWorst": "moving to Tennessee has been amazing but I miss seeing my friends and family. Seeing them every 6 months is not enough.",
+      "oneThing": "I could have more patients in stressful/ annoying situations",
+      "timestamp": "05/06/2021, 10:29:42 AM",
+      "id": 2
     }
   ],
   "selfGratitude": [
@@ -44,31 +52,62 @@
       "content": "yay the timestamp updates to the edit",
       "timestamp": "04/29/2021, 03:11:40 PM",
       "id": 3
+    },
+    {
+      "userId": 1,
+      "content": "wow",
+      "timestamp": "05/06/2021, 11:31:53 PM",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "content": "can multiple cards fit here",
+      "timestamp": "05/06/2021, 11:32:02 PM",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "content": "can multiple cards fit here",
+      "timestamp": "05/06/2021, 11:32:11 PM",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "content": "can multiple cards fit here",
+      "timestamp": "05/06/2021, 11:36:13 PM",
+      "id": 7
     }
   ],
   "forgiveness": [
     {
       "userId": 1,
       "id": 1,
-      "who": "Noa",
+      "who": "dad",
       "offense": "for nagging me",
-      "resolved": false
+      "resolved": true
     },
     {
       "userId": 1,
       "who": "Noa",
       "offense": "for not being there when I was in high school",
-      "resolved": false,
+      "resolved": true,
       "id": 2
+    },
+    {
+      "userId": 1,
+      "who": "Noa",
+      "offense": "for nagging me",
+      "resolved": true,
+      "id": 3
     }
   ],
   "goals": [
     {
       "userId": 1,
       "id": 1,
-      "goal": "I want to code on my off time",
+      "goal": "I want to code ",
       "steps": "instead of watching TikTok I want to code and work on my linked in",
-      "timestamp": "05/04/2021, 03:49:38 PM"
+      "timestamp": "05/06/2021, 10:32:29 AM"
     },
     {
       "userId": 1,
@@ -76,16 +115,23 @@
       "goal": "I want to walk in the mornings",
       "steps": "instead of watching TikTok I want to code and work on my linked in",
       "timestamp": "05/04/2021, 11:28:45 PM"
+    },
+    {
+      "userId": 1,
+      "goal": "I want to code on my off time",
+      "steps": "instead of watching TikTok I want to code and work on my linked in",
+      "timeStamp": "05/06/2021, 10:30:40 AM",
+      "id": 3
     }
   ],
   "recommended": [
     {
       "userId": 1,
-      "title": "Joe Rogan Episode #1642",
+      "id": 1,
+      "title": "Joe Rogan Episode ",
       "note": "check out this super inspiring episode",
       "link": "https://www.huffpost.com/entry/coronavirus-dog-separation-anxiety-pet_n_600af3fac5b6d64153ab53cb",
-      "timestamp": "04/29/2021, 03:11:40 PM",
-      "id": 1
+      "timestamp": "05/06/2021, 10:33:37 AM"
     },
     {
       "userId": 1,
@@ -94,6 +140,22 @@
       "link": "https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr",
       "timestamp": "04/30/2021, 03:38:05 PM",
       "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Joe Rogan episode #1609",
+      "note": "I couldn't type in these input fields but after 3 minutes of looking I found the problem ",
+      "link": "https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr",
+      "timestamp": "05/06/2021, 10:33:03 AM",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "title": "Joe Rogan episode #1699",
+      "note": "I couldn't type in these input fields but after 3 minutes of looking I found the problem ",
+      "link": "https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr",
+      "timestamp": "05/06/2021, 10:55:31 AM",
+      "id": 4
     }
   ]
 }

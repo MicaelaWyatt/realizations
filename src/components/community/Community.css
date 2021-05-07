@@ -1,0 +1,23 @@
+section.community-list{
+    margin-left: 36px;
+}
+
+section.recommended-card{
+    color: #F2EFFF;
+    background-color: #FFBE5E;
+    padding-left: 15px ;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+    margin-top:10px;
+    border-radius: .5rem;
+}
+
+section.recommendation-card{
+    color: #F2EFFF;
+    background-color: #C9A6B7;
+    padding-left: 15px ;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+    margin-top:10px;
+    border-radius: .5rem;
+}

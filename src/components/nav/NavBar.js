@@ -1,27 +1,31 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
+import logo from "../../images/LsLogo.PNG"
+import "./NavBar.css"
 
 export const NavBar = (props) => {
-  return (
-    <nav className="navbar bg-dark text-white flex-md-nowrap p-0 shadow">
+  return (<>
+  <img src={logo} alt="real-logo" className="logo"/>
+    <nav className="navbar bg-dark text-white flex-md-nowrap p-0">
       <ul className="nav nav-pills nav-fill">
         <li className="nav-item">
-          <Link className="nav-link" to="/">Home</Link>
+          <Link className="nav-link" id="a" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/portfolio">Portfolio</Link>
+          <Link className="nav-link" id="b" to="/portfolio">Portfolio</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/goals">Goals</Link>
+          <Link className="nav-link" id="c" to="/goals">Goals</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/forgiveness">Forgiveness</Link>
+          <Link className="nav-link" id="d" to="/forgiveness">Forgiveness</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/community">Community</Link>
+          <Link className="nav-link" id="e" to="/community">Community</Link>
         </li>
       </ul>
     </nav>
+    </>
   )
 }
