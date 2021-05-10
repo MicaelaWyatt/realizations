@@ -31,15 +31,18 @@ h2{
     font-family: 'Roboto', sans-serif;
     color: #F2EFFF;
     font-size: 60px!important;
-    margin-left: 38px;
-    margin-top: 20px!important;
+    margin-left: 50px;
+    padding-top: 20px;
+    
 }
+
 
 section.wellbeing-card{
     border: solid 3px #7986BE;
     margin-top: 10px;
     padding-top: 5px;
     padding-left: 7px;
+    color:#F2EFFF;
 }
 
 div.user-info-new{
@@ -50,4 +53,8 @@ div.user-info-new{
 
 button.info-button{
     margin-left:36px;
+}
+
+section.SelfGratitude-card{
+    color:#7986BE;
 }

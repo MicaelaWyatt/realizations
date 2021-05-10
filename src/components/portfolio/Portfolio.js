@@ -5,6 +5,7 @@ import { CheckInCard } from "./CheckInCard"
 import { deleteCheckIn, getAllCheckIns } from "../modules/CheckInManager"
 import { deleteSelfGratitude, getAllSelfGratitude} from "../modules/SelfGratitudeManager"
 import "./Portfolio.css"
+import { getUserById, getAllUsers} from "../modules/UsersManager"
 
 
 
@@ -23,6 +24,13 @@ const getSelfGratitude = () => {
         setGratitudes(gratitudesFromAPI)
     });
 };
+
+// const getUser = () => {
+//     return getAllUsers().then(usersFromAPI =>{
+//         usersFromAPI.filter(user => user.includes(currentUser).map(filteredUser))
+//     }        
+//     )
+// }
 
 const history = useHistory();
 const currentUser = parseInt(sessionStorage.getItem("realization_user"));
@@ -60,7 +68,7 @@ function gratitudeInfo() {
     return(
         <>
         <div className="user-info-new">
-        <h2>Hello Micaela {currentUser.name}</h2>
+        <h2 className="users-name" >Hello Micaela</h2>
         <button type="button" className="info-button" onClick={portfolioInfo} >info</button>
         <button type="button" className="newCheckin-bttn" onClick={() => {history.push("/portfolio/create")}}>new checkin</button>
         </div>
