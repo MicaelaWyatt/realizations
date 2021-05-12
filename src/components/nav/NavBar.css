@@ -47,8 +47,6 @@ nav{
 } */
 img.logo{
     height: 100px!important;
-    position: absolute;
-    
 }
 
 nav{
@@ -57,5 +55,6 @@ nav{
     float:right;
     height: 85px;
     width: 1320px;
-    position: fixed;
+    position: relative!important;
+    
 }

@@ -27,15 +27,22 @@ section.CheckInSection{
     margin-left: 36px;
 }
 
-h2{
+/* h2{
     font-family: 'Roboto', sans-serif;
     color: #F2EFFF;
     font-size: 60px!important;
     margin-left: 50px;
     padding-top: 20px;
     
-}
+} */
 
+h2.portfolio-header{
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    font-size: 60px;
+    margin-left: 36px;
+    padding-top: 20px;
+}
 
 section.wellbeing-card{
     border: solid 3px #7986BE;

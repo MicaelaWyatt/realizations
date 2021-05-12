@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router';
 import { deleteGoal, getAllGoals } from '../modules/GoalsManager';
 import { GoalsCard } from './GoalsCard'
+import "./Goals.css"
 
 
 export const GoalsList = () => {
@@ -32,7 +33,7 @@ export const GoalsList = () => {
 
     return(
         <>
-        <h2>Goals</h2>
+        <h2 className="goals-header">Goals</h2>
         <button type="button" className="info-button" onClick={goalInfo} >info</button>
         <button type="button" className="add-goal-button" id="goal-add" onClick={() => {history.push("/goals/create")}}>add</button>
         <section>

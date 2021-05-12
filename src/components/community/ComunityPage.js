@@ -31,7 +31,7 @@ function communityInfo() {
 
 return(
     <>
-    <h2>community</h2>
+    <h2 className="community-header">Community</h2>
     <button type="button" className="info-button" onClick={communityInfo} >info</button>
     <button type="button" className="share-button" onClick={() => {history.push("/community/create")}}>share</button>
     <section className="community-list">

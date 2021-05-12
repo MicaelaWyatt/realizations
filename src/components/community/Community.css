@@ -1,3 +1,11 @@
+h2.community-header{
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    font-size: 60px;
+    margin-left: 36px;
+    padding-top: 20px;
+}
+
 section.community-list{
     margin-left: 36px;
 }

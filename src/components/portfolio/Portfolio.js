@@ -68,7 +68,7 @@ function gratitudeInfo() {
     return(
         <>
         <div className="user-info-new">
-        <h2 className="users-name" >Hello Micaela</h2>
+        <h2 className="portfolio-header" >Hello Micaela</h2>
         <button type="button" className="info-button" onClick={portfolioInfo} >info</button>
         <button type="button" className="newCheckin-bttn" onClick={() => {history.push("/portfolio/create")}}>new checkin</button>
         </div>

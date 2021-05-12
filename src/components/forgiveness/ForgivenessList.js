@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { useHistory } from "react-router";
 import { deleteForgiveness, getAllForgiveness, getForgivenessById, updateForgiveness } from "../modules/ForgivenessManager";
-
+import "./Forgiveness.css"
 import { ForgivenessCard } from "./ForgivenessCard"
 
 
@@ -44,7 +44,7 @@ export const ForgivenessList = () => {
 
     return(
         <>
-        <h2>Forgiveness</h2>
+        <h2 className="forgiveness-header">Forgiveness</h2>
         <button type="button" className="info-button" onClick={forgivenessInfo} >info</button>
         <button type="button" className="add-Forgiveness-button" onClick={() => {history.push("/forgiveness/create")}}>add</button>
         <section>
