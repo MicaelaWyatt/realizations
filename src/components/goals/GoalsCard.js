@@ -4,11 +4,12 @@ import { useHistory } from "react-router-dom"
 export const GoalsCard = ({goal, handleDeleteGoal}) => {
     const history = useHistory();
     return(
-        <section className="GoalCard">
-            <div>Goal</div>
-            <div>{goal.goal}</div>
-            <button className="delete-bttn" type="button" onClick={() => handleDeleteGoal(goal.id)}>Delete</button>
-            <button className="edit-bttn" type="button" onClick={() => history.push(`/goals/${(goal.id)}/edit`)}>Edit</button>
-        </section>
+        <div className="GoalCard">
+            <section className="content">
+            <div className="content" >{goal.goal}</div>
+            <i class="bi bi-trash"  onClick={() => handleDeleteGoal(goal.id)}></i>
+            <i class="bi bi-pencil" onClick={() => history.push(`/goals/${(goal.id)}/edit`)}></i>
+            </section>
+        </div>
     )
 }

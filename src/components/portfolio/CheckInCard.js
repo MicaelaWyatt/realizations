@@ -9,8 +9,8 @@ export const CheckInCard = ({checkIn, handleDeleteCheckIn}) => {
             <div>{checkIn.theWorst}</div>
             <div>{checkIn.oneThing}</div>
             <div>{checkIn.timestamp}</div>
-            <button className="delete-bttn" type="button" onClick={() => handleDeleteCheckIn(checkIn.id)}>Delete</button>
-      <button className="edit-bttn" type="button" onClick={() => history.push(`/portfolio/${checkIn.id}/edit`)} >Edit</button>
+            <i class="bi bi-trash" onClick={() => handleDeleteCheckIn(checkIn.id)}></i>
+            <i class="bi bi-pencil" onClick={() => history.push(`/portfolio/${checkIn.id}/edit`)}></i>
         </section>
     )
 }

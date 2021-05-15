@@ -27,21 +27,13 @@ section.CheckInSection{
     margin-left: 36px;
 }
 
-/* h2{
-    font-family: 'Roboto', sans-serif;
-    color: #F2EFFF;
-    font-size: 60px!important;
-    margin-left: 50px;
-    padding-top: 20px;
-    
-} */
-
 h2.portfolio-header{
     font-family: 'Roboto',sans-serif;
     color: #F2EFFF;
     font-size: 60px;
     margin-left: 36px;
     padding-top: 20px;
+    
 }
 
 section.wellbeing-card{
@@ -53,15 +45,57 @@ section.wellbeing-card{
 }
 
 div.user-info-new{
-    width: 40%;
+    width: 50%;
     margin-right: 100px;
     float: left;
+    display: flex;
 }
 
-button.info-button{
-    margin-left:36px;
-}
 
 section.SelfGratitude-card{
     color:#7986BE;
+}
+
+i#portfolio.bi-info-circle::before {
+    content: "\f431";
+    font-size: 2rem;
+    color: #7986BE;
+    margin-left: 7px;
+    margin-top: 45px;
+}
+i#check.bi-info-circle::before {
+    content: "\f431";
+    font-size: 2rem;
+    color: #7986BE;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+i#gratitude.bi-info-circle::before {
+    content: "\f431";
+    font-size: 1.5rem;
+    color: #7986BE;
+    margin-left: 7px;
+    margin-right: 15px;
+}
+
+i#self.bi-plus-circle::before {
+    content: "\f4fa";
+    font-size: 1.5rem;
+    color: #7986BE;
+    margin-left: 15px;
+}
+
+.bi-plus-circle::before {
+    content: "\f4fa";
+    font-size: 2rem;
+    color: #7986BE;
+}
+
+i#sgtrash.bi.bi-trash::before {
+    margin-right: 10px;
+}
+
+i#sgedit.bi.bi-pencil::before {
+    margin-left: 10px;
 }
