@@ -56,7 +56,7 @@ return(
     <h2 className="community-header">Community</h2>
     <i class="bi bi-info-circle" variant="primary" onClick={() => setModalShow(true)}></i>
         <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
-    <button type="button" className="share-button" onClick={() => {history.push("/community/create")}}>share</button>
+        <i class="bi bi-megaphone-fill" onClick={() => {history.push("/community/create")}} ></i>
     <section className="community-list">
         {recommendations.map(recommendation => <CommunityCard key={recommendation.id} recommendation={recommendation} handleDeleteRecommendation={handleDeleteRecommendation}/>)}
     </section>

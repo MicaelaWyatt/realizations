@@ -57,18 +57,18 @@ deleteCheckIn(id)
 
 function PageInfoModal(props) {
     return (
-      <Modal
+      <Modal className="PageModal"
         {...props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header  className="PageModal" closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Portfolio Page
+            Portfolio
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body  className="PageModal" >
           <p>
           Welcome to your portfolio.The purpose of the portfolio page is to focus on you. 
           On the left is a list of all your check-Ins. and on the right is a list of your gratitude statements.
@@ -80,18 +80,18 @@ function PageInfoModal(props) {
 
   function CheckInInfoModal(props) {
     return (
-      <Modal
+      <Modal className="CheckInModal"
         {...props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header className="CheckInModal" closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
                 Check-ins
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="CheckInModal" >
           <p>
           The concept of Check-ins is to make the most of where you are and who and what you have in life. 
           The purpose of Check-ins is to have a space to pause, reflect, connect, and share intentions. This not only demonstrated openness, but it moves us and the things we are a part of forward.
@@ -103,18 +103,18 @@ function PageInfoModal(props) {
 
   function GratitudeInfoModal(props) {
     return (
-      <Modal
+      <Modal className="gratitudeModal"
         {...props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header className="gratitudeModal" closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
               Self Gratitude
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="gratitudeModal">
           <p>
           The purpose of Self Gratitude is to acknowledge your accomplishments. 
           This could be anything from helping an old lady cross the street, to liking how you acted in a certain situation. 
