@@ -5,3 +5,34 @@ h2.forgiveness-header{
     margin-left: 36px;
     padding-top: 20px;
 }
+
+section.ForgivenessCard{
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    margin-top: 10px;
+    margin-left: 36px;
+    height: 200px;
+    width: 15%;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 1rem;
+    
+}
+
+section.ForgivenessCard:nth-child(3){
+    background-color:#FFBE5E;
+}
+
+section.ForgivenessCard:nth-child(2){
+    background-color:#C9A6B7;
+}
+
+section.ForgivenessCard:nth-child(1){
+    background-color:#FB9145;
+}
+
+section.forgivenessList{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

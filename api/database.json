@@ -19,19 +19,19 @@
   "checkins": [
     {
       "userId": 1,
-      "id": 1,
-      "theBest": "I recently quit my job at Dry Bar which has been a huge relief because now I can 100 percent focus on school",
-      "theWorst": " Tennessee has been amazing but I miss seeing my friends and family. Seeing them every 6 months is not enough.",
-      "oneThing": "I could have more patients in stressful/ annoying situations.",
-      "timestamp": "05/06/2021, 10:30:00 AM"
-    },
-    {
-      "userId": 1,
+      "id": 2,
       "theBest": "I hit MVP! I also get to go to Colorado this next week and I have so many fun things planned with people I love",
       "theWorst": "I need to code to finish my styling for REALIZATIONS",
       "oneThing": "I need to work on communication with family",
-      "timestamp": "05/07/2021, 09:44:47 AM",
-      "id": 2
+      "timestamp": "05/12/2021, 09:23:38 AM"
+    },
+    {
+      "userId": 1,
+      "theBest": "I recently quit my job at Dry Bar which has been a huge relief because now I can 100 percent focus on school",
+      "theWorst": " Tennessee has been amazing but I miss seeing my friends and family. Seeing them every 6 months is not enough.",
+      "oneThing": "I could have more patients in stressful/ annoying situations",
+      "timestamp": "05/12/2021, 09:20:29 AM",
+      "id": 4
     }
   ],
   "selfGratitude": [
@@ -96,6 +96,41 @@
       "offense": "for nagging me",
       "resolved": true,
       "id": 6
+    },
+    {
+      "userId": 1,
+      "who": "my friend Reece",
+      "offense": "not returning my top",
+      "resolved": false,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "who": "sister",
+      "offense": "for not paying me back",
+      "resolved": false,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "who": "mom",
+      "offense": "for nagging me",
+      "resolved": false,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "who": "mom",
+      "offense": "for nagging me",
+      "resolved": false,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "who": "dad",
+      "offense": "for not paying me back",
+      "resolved": true,
+      "id": 11
     }
   ],
   "goals": [
@@ -119,6 +154,13 @@
       "steps": "when someone does something for me I will take a second to reflect and appreciate what they did",
       "timeStamp": "05/07/2021, 09:40:52 AM",
       "id": 4
+    },
+    {
+      "userId": 1,
+      "goal": "I would love to be able to move to Hawaii one day",
+      "steps": "save all my money",
+      "timeStamp": "05/12/2021, 08:05:48 PM",
+      "id": 5
     }
   ],
   "recommended": [

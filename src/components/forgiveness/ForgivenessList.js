@@ -3,10 +3,13 @@ import { useHistory } from "react-router";
 import { deleteForgiveness, getAllForgiveness, getForgivenessById, updateForgiveness } from "../modules/ForgivenessManager";
 import "./Forgiveness.css"
 import { ForgivenessCard } from "./ForgivenessCard"
+import Modal from 'react-bootstrap/Modal'
+
 
 
 export const ForgivenessList = () => {
     const[forgivenesses,setForgivenesses] = useState([]);
+    const [modalShow, setModalShow] = React.useState(false);
     const history = useHistory();
     const currentUser = parseInt(sessionStorage.getItem("realization_user"));
 
@@ -42,12 +45,36 @@ export const ForgivenessList = () => {
     
 }
 
+function MyVerticallyCenteredModal(props) {
+    return (
+      <Modal
+        {...props}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            Goals Page
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>
+          Holding on to regret, pain, and resentment hurts others. 
+          But it also hurts you. The purpose of the Forgiveness page is to write down things you want to forgive people for, and to read each card until the statement becomes true. 
+          When you feel you can whole heartedly forgive the person for what they did then you can click the resolve button and your card will dissapear.
+          </p>
+        </Modal.Body>
+      </Modal>
+    );
+  }
     return(
         <>
         <h2 className="forgiveness-header">Forgiveness</h2>
-        <button type="button" className="info-button" onClick={forgivenessInfo} >info</button>
-        <button type="button" className="add-Forgiveness-button" onClick={() => {history.push("/forgiveness/create")}}>add</button>
-        <section>
+        <i class="bi bi-info-circle" variant="primary" onClick={() => setModalShow(true)}></i>
+        <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
+        <i class="bi bi-plus-circle" onClick={() => {history.push("/forgiveness/create")}}></i>
+        <section className="forgivenessList">
             {forgivenesses.map(forgiveness =>{
                 if(forgiveness.resolved === false && forgiveness.resolved === false && forgiveness.userId === currentUser){
                     return <ForgivenessCard key={forgiveness.id} forgiveness={forgiveness} handleResolveClick={handleResolveClick} handleDeleteForgiveness={handleDeleteForgiveness} />

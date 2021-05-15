@@ -7,8 +7,8 @@ export const SelfGratitudeCard = ({gratitude, handleDeleteGratitude}) => {
         <section className="SelfGratitude-card">
             <div>{gratitude.content} </div>
             <div>{gratitude.timestamp}</div>
-            <button className="delete-bttn" type="button" onClick={() => handleDeleteGratitude(gratitude.id)}>Delete</button>
-      <button className="edit-bttn" type="button" onClick={() => history.push(`/portfolio/selfGratitude/${gratitude.id}/edit`)} >Edit</button>
+            <i id="sgtrash" class="bi bi-trash"  onClick={() => handleDeleteGratitude(gratitude.id)}></i>
+            <i id="sgedit" class="bi bi-pencil" onClick={() => history.push(`/portfolio/selfGratitude/${gratitude.id}/edit`)}></i>
         </section>
     )
 }

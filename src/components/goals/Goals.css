@@ -5,3 +5,42 @@ h2.goals-header{
     margin-left: 36px;
     padding-top: 20px;
 }
+
+.bi-info-circle::before {
+    content: "\f431";
+    font-size: 2rem;
+    color: #7986BE;
+    margin-left: 36px;
+    margin-right: 7px;
+}
+/* .item:nth-child(even) {...
+}
+.item:nth-child(odd) {...} */
+div.GoalCard:nth-child(even){
+    margin-left: 36px;
+    margin-bottom: 75px;
+    border-radius: 50%;
+    background-color: #C9A6B7;
+    height: 200px;
+    width: 200px;
+}
+
+div.GoalCard:nth-child(odd){
+    margin-left: 36px;
+    margin-top: 75px;
+    border-radius: 50%;
+    background-color: #FB9145;
+    height: 200px;
+    width: 200px;
+}
+
+section.content{
+    padding-top: 75px;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    text-align: center;
+}
+
+section.goalList{
+    display: flex;
+}

@@ -7,17 +7,16 @@ export const CommunityCard = ({recommendation, handleDeleteRecommendation}) => {
     if(currentUser === recommendation.userId){
     return(
         <section className="recommended-card">
-            
-            <div>{recommendation.title}</div>
+            <h5>{recommendation.title}</h5>
             <div>{recommendation.note} </div>
             <div className="currentUser-recommendation_url"><a className="card-url" href={recommendation.link} >Click Here To Read More</a></div>
-            <button className="delete-bttn" type="button" onClick={() => handleDeleteRecommendation(recommendation.id)} >Delete</button>
-            <button className="edit-bttn" type="button"  onClick={() => history.push(`/community/${(recommendation.id)}/edit`)}>Edit</button>
+            <i class="bi bi-trash"  onClick={() => handleDeleteRecommendation(recommendation.id)}></i>
+            <i class="bi bi-pencil" onClick={() => history.push(`/community/${(recommendation.id)}/edit`)}></i>
         </section> )}
         else{
             return(
                 <section className="recommendation-card">
-                <div>{recommendation.title}</div>
+                <h5>{recommendation.title}</h5>
             <div>{recommendation.note} </div>
             <div className="currentUser-recommendation_url"><a className="card-url" href={recommendation.link} >Click Here To Read More</a></div>
                 </section>

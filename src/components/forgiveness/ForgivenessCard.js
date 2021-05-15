@@ -5,10 +5,12 @@ export const ForgivenessCard = ({ forgiveness, handleDeleteForgiveness, handleRe
     const history = useHistory();
     return(
         <section className="ForgivenessCard">
+            <section className="FCcontent">
             <div>I wanted to forgive {forgiveness.who} for {forgiveness.offense} </div>
-            <button className="delete-bttn" type="button" onClick={() => handleDeleteForgiveness(forgiveness.id)} >Delete</button>
-            <button className="edit-bttn" type="button"  onClick={() => history.push(`/forgiveness/${(forgiveness.id)}/edit`)}>Edit</button>
+            <i class="bi bi-trash"  onClick={() => handleDeleteForgiveness(forgiveness.id)}></i>
+            <i class="bi bi-pencil" onClick={() => history.push(`/forgiveness/${(forgiveness.id)}/edit`)}></i>
             <button className="resolve-bttn" type="button" onClick={() => handleResolveClick(forgiveness.id)}>resolve</button>
+            </section>
         </section>
     )
 }
