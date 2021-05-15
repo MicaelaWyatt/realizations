@@ -7,9 +7,9 @@ export const ForgivenessCard = ({ forgiveness, handleDeleteForgiveness, handleRe
         <section className="ForgivenessCard">
             <section className="FCcontent">
             <div>I wanted to forgive {forgiveness.who} for {forgiveness.offense} </div>
-            <i class="bi bi-trash"  onClick={() => handleDeleteForgiveness(forgiveness.id)}></i>
-            <i class="bi bi-pencil" onClick={() => history.push(`/forgiveness/${(forgiveness.id)}/edit`)}></i>
-            <button className="resolve-bttn" type="button" onClick={() => handleResolveClick(forgiveness.id)}>resolve</button>
+            <i id="FTrash" class="bi bi-trash"  onClick={() => handleDeleteForgiveness(forgiveness.id)}></i>
+            <i id="FEdit" class="bi bi-pencil" onClick={() => history.push(`/forgiveness/${(forgiveness.id)}/edit`)}></i>
+            <i id="FHeart" class="bi bi-heart"onClick={() => handleResolveClick(forgiveness.id)}></i>
             </section>
         </section>
     )

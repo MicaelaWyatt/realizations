@@ -99,3 +99,39 @@ i#sgtrash.bi.bi-trash::before {
 i#sgedit.bi.bi-pencil::before {
     margin-left: 10px;
 }
+
+div.CheckInModal.modal-body{
+    background-color: #C9A6B7;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.CheckInModal.modal-header{
+    background-color: #C9A6B7;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.gratitudeModal.modal-body{
+    background-color: #FFBE5E;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.gratitudeModal.modal-header{
+    background-color: #FFBE5E;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.PageModal.modal-body{
+    background-color: #FB9145;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.PageModal.modal-header{
+    background-color: #FB9145;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
