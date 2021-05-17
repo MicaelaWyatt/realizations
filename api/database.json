@@ -161,6 +161,41 @@
       "steps": "save all my money",
       "timeStamp": "05/12/2021, 08:05:48 PM",
       "id": 5
+    },
+    {
+      "userId": 1,
+      "goal": "I want to code on my off time",
+      "steps": "instead of watching TikTok I want to code and work on my linked in",
+      "timeStamp": "05/15/2021, 07:03:33 PM",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "goal": "I want to code on my off time",
+      "steps": "instead of watching TikTok I want to code and work on my linked in",
+      "timeStamp": "05/15/2021, 07:03:41 PM",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "goal": "I want to code on my off time",
+      "steps": "on my lunch break I am going to walk before I eat ",
+      "timeStamp": "05/15/2021, 07:03:49 PM",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "goal": "I want to walk outside more",
+      "steps": "on my lunch break I am going to walk before I eat ",
+      "timeStamp": "05/15/2021, 07:10:36 PM",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "goal": "I want to know why this isn't working",
+      "steps": "when someone does something for me I will take a second to reflect and appreciate what they did",
+      "timeStamp": "05/15/2021, 07:10:45 PM",
+      "id": 10
     }
   ],
   "recommended": [

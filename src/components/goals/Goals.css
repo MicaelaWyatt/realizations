@@ -24,6 +24,8 @@ section.content{
 
 section.goalList{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 
@@ -43,6 +45,7 @@ div.GoalCard:nth-child(2){
     margin-left: 36px;
     border-radius: 50%;
     margin-top: 25px;
+    padding-top: 15px;
     background-color: #C9A6B7;
     height: 250px;
     width: 250px;
@@ -60,6 +63,16 @@ div.GoalCard:nth-child(4){
     margin-left: 36px;
     border-radius: 50%;
     background-color: #FB9145;
+    padding-top: 15px;
     height: 250px;
     width: 250px;
+}
+
+div.GoalCard:nth-child(5){
+    margin-left: 36px;
+    border-radius: 50%;
+    margin-top: 25px;
+    background-color: #C9A6B7;
+    height: 200px;
+    width: 200px;
 }
