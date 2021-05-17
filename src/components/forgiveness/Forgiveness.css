@@ -20,20 +20,22 @@ section.ForgivenessCard{
     
 }
 
+section.ForgivenessCard:nth-child(1){
+    background-color:#FB9145;
+}
+section.ForgivenessCard:nth-child(2){
+    background-color:#C9A6B7;
+}
 section.ForgivenessCard:nth-child(3){
     background-color:#FFBE5E;
 }
 
-section.ForgivenessCard:nth-child(2){
-    background-color:#C9A6B7;
-}
-
-section.ForgivenessCard:nth-child(1){
-    background-color:#FB9145;
-}
-
 section.ForgivenessCard:nth-child(4){
     background-color:#FB9145;
+}
+
+section.ForgivenessCard:nth-child(5){
+    background-color:#C9A6B7;
 }
 
 section.forgivenessList{
