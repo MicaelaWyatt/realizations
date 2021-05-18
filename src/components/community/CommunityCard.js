@@ -1,5 +1,6 @@
 import React from "react"
 import {useHistory} from "react-router-dom"
+import "./Community.css" 
 
 export const CommunityCard = ({recommendation, handleDeleteRecommendation}) => {
     const history = useHistory()

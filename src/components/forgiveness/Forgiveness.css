@@ -141,3 +141,14 @@ button.cancel-bttn:hover{
     border-radius: .25rem;
 }
 
+div.FBody.modal-body{
+    background-color: #C9A6B7;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.FHead.modal-header{
+    background-color: #C9A6B7;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}

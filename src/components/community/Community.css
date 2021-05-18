@@ -37,3 +37,45 @@ i.bi.bi-megaphone-fill::before {
     color: #7986BE;
     margin-left: 7px;
 }
+
+div.CPBody.modal-body{
+    background-color: #C9A6B7;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.CPHead.modal-header{
+    background-color: #C9A6B7;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+form.recommendation-form{
+margin-left: 36px;
+font-family: 'Roboto',sans-serif;
+color: #7986BE;
+width:95%;
+font-size: 1.25rem;
+}
+
+h2.recommendation-form-header{
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+button.saveRecommendation{
+    background-color: #7986BE;
+    color: #B1B7D1;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+button.saveRecommendation:hover{
+    background-color: #7986BE;
+    color: white;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
