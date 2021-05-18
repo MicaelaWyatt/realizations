@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { useHistory, useParams } from "react-router-dom"
 import { getForgivenessById, updateForgiveness } from "../modules/ForgivenessManager";
+import "./Forgiveness.css"
 
 export const ForgivenessEditForm = () => {
     const currentUser = parseInt(sessionStorage.getItem("realization_user"));
@@ -44,8 +45,8 @@ export const ForgivenessEditForm = () => {
         });
     },[]);
     return(
-        <form className="Forgiveness-form">
-            <h2>Forgiveness</h2>
+        <form autocomplete="off" className="Forgiveness-form">
+            <h2 className="Forgiveness-form-header">Forgiveness</h2>
             <fieldset>
                 <div>
                     <label className="forgivenessFormLabel">Who are you trying to forgive?</label>

@@ -1,7 +1,7 @@
 const remoteURL = "http://localhost:8088"
 
-export const getUserById = (userId) => {
-    return fetch(`${remoteURL}/users/${userId}`)
+export const getUserById = (Id) => {
+    return fetch(`${remoteURL}/users/${Id}`)
     .then(res => res.json())
 }
 

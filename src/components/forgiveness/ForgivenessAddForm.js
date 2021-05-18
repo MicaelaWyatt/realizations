@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react"
 import { useHistory } from "react-router-dom"
 import { addForgiveness } from "../modules/ForgivenessManager"
+import "./Forgiveness.css"
 
 export const ForgivenessAddForm = () => {
     const history = useHistory();
@@ -42,8 +43,8 @@ const handleClickSaveForgiveness = (event) => {
     }
 
     return(
-        <form className="Forgiveness-form">
-            <h2>Forgiveness</h2>
+        <form  autocomplete="off"className="Forgiveness-form">
+            <h2 className="Forgiveness-form-header">Forgiveness</h2>
             <fieldset>
                 <div>
                     <label className="forgivenessFormLabel">Who are you trying to forgive?</label>

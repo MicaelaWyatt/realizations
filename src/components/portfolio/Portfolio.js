@@ -6,7 +6,8 @@ import { deleteCheckIn, getAllCheckIns } from "../modules/CheckInManager"
 import { deleteSelfGratitude, getAllSelfGratitude} from "../modules/SelfGratitudeManager"
 import "./Portfolio.css"
 import Modal from 'react-bootstrap/Modal'
-import { getUserById, getAllUsers} from "../modules/UsersManager"
+import {getAllUsers} from "../modules/UsersManager"
+import { UsersName } from "./UsersName"
 
 
 
@@ -29,20 +30,17 @@ const getSelfGratitude = () => {
     });
 };
 
-// const getUser = () => {
-//     return getAllUsers().then(usersFromAPI =>{
-//         usersFromAPI.filter(user => user.includes(currentUser).map(filteredUser))
-//     }        
-//     )
-// }
+
 
 const history = useHistory();
 const currentUser = parseInt(sessionStorage.getItem("realization_user"));
 
 useEffect(()=>{
-getCheckins();
-getSelfGratitude();
+  getCheckins();
+  getSelfGratitude();
+  
 },[])
+
 
 
 const handleDeleteGratitude = id => {
@@ -128,7 +126,8 @@ function PageInfoModal(props) {
     return(
         <>
         <div className="user-info-new">
-        <h2 className="portfolio-header" >Hello Micaela</h2>
+          <UsersName/>
+        {/* <h2 className="portfolio-header" >Hello {users.name}</h2> */}
         <i id="portfolio" class="bi bi-info-circle" variant="primary" onClick={() => setPageInfoModalShow(true)}></i>
         <PageInfoModal show={pageInfoModalShow} onHide={() => setPageInfoModalShow(false)} />
         </div>

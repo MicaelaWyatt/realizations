@@ -44,7 +44,7 @@ export const SelfGratitudeEditForm = () => {
     },[]);
 
     return(
-        <form className="SelfGratitude-form">
+        <form autocomplete="off" className="SelfGratitude-form">
             <h2 className="SelfGratitude-form-header">Self Gratitude</h2>
             <fieldset>
                 <div>

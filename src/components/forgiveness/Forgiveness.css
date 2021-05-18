@@ -38,9 +38,52 @@ section.ForgivenessCard:nth-child(5){
     background-color:#C9A6B7;
 }
 
+section.ForgivenessCard:nth-child(6){
+    background-color:#FFBE5E;
+}
+
+section.ForgivenessCard:nth-child(7){
+    background-color:#FB9145;
+}
+section.ForgivenessCard:nth-child(8){
+    background-color:#C9A6B7;
+}
+
+section.ForgivenessCard:nth-child(9){
+    background-color:#FFBE5E;
+}
+
+section.ForgivenessCard:nth-child(10){
+    background-color:#FB9145;
+}
+section.ForgivenessCard:nth-child(11){
+    background-color:#C9A6B7;
+}
+
+section.ForgivenessCard:nth-child(12){
+    background-color:#FFBE5E;
+}
+
+section.ForgivenessCard:nth-child(13){
+    background-color:#FB9145;
+}
+
+section.ForgivenessCard:nth-child(14){
+    background-color:#C9A6B7;
+}
+
+section.ForgivenessCard:nth-child(15){
+    background-color:#FFBE5E;
+}
+
+section.ForgivenessCard:nth-child(16){
+    background-color:#FB9145;
+}
+
 section.forgivenessList{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     
 }
 
@@ -48,3 +91,53 @@ i#FEdit.bi.bi-pencil::before{
     margin-left: 6px;
     margin-right: 6px;
 }
+
+form.Forgiveness-form{
+margin-left: 36px;
+font-family: 'Roboto',sans-serif;
+color: #7986BE;
+width:95%;
+font-size: 1.25rem;
+}
+
+h2.Forgiveness-form-header{
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+
+button.saveForgiveness{
+    background-color: #7986BE;
+    color: #B1B7D1;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+button.saveForgiveness:hover{
+    background-color: #7986BE;
+    color: white;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+button.cancel-bttn{
+    background-color: #7986BE;
+    color: #B1B7D1;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+    margin-right:10px;
+}
+
+button.cancel-bttn:hover{
+    background-color: #7986BE;
+    color: white;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+

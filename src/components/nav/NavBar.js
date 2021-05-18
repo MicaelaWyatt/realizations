@@ -5,7 +5,7 @@ import logo from "../../images/LsLogo.PNG"
 import "./NavBar.css"
 
 export const NavBar = (props) => {
-  return (<>
+  return (<header>
   <img src={logo} alt="real-logo" className="logo"/>
     <nav className="navbar bg-dark text-white flex-md-nowrap p-0">
       <ul className="nav nav-pills nav-fill">
@@ -26,6 +26,6 @@ export const NavBar = (props) => {
         </li>
       </ul>
     </nav>
-    </>
+    </header>
   )
 }

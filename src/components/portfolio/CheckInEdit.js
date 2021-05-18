@@ -48,7 +48,7 @@ export const CheckInEditForm = () => {
     },[]);
 
     return(
-        <form className="checkIn-form">
+        <form autocomplete="off" className="checkIn-form">
         <h2 className="checkIn-form-header">Check-in</h2>
         <fieldset>
             <div>

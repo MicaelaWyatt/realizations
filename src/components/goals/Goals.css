@@ -25,7 +25,8 @@ section.content{
 section.goalList{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+
+
 }
 
 
@@ -34,45 +35,147 @@ section.goalList{
 .item:nth-child(odd) {...} */
 div.GoalCard:nth-child(1){
     margin-left: 36px;
-    
+    margin-right: 100px;
     border-radius: 50%;
     background-color: #FB9145;
-    height: 200px;
-    width: 200px;
+    height: 225px;
+    width: 225px;
+    
 }
 
 div.GoalCard:nth-child(2){
-    margin-left: 36px;
+    margin-left: 50px;
+    margin-right: 75px;
     border-radius: 50%;
     margin-top: 25px;
     padding-top: 15px;
     background-color: #C9A6B7;
     height: 250px;
     width: 250px;
+   
 }
 
 div.GoalCard:nth-child(3){
-    margin-left: 36px;
+    margin-left: 75px;
+    margin-right: 70px;
+    border-radius: 50%;
+    background-color: #FFBE5E;
+    height: 300px;
+    width: 300px;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+div.GoalCard:nth-child(4){
+    margin-left: 75px;
+    margin-right: 36px;
+    border-radius: 50%;
+    background-color: #FB9145;
+    padding-top: 5px;
+    height: 200px;
+    width: 200px;
+ 
+}
+
+div.GoalCard:nth-child(5){
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 50%;
+    margin-top: 25px;
+    background-color: #C9A6B7;
+    height: 300px;
+    width: 300px;
+    padding-top: 55px;
+}
+
+div.GoalCard:nth-child(6){
+    margin-top: 20px;
+    margin-left: 60px;
     border-radius: 50%;
     background-color: #FFBE5E;
     height: 200px;
     width: 200px;
 }
-
-div.GoalCard:nth-child(4){
-    margin-left: 36px;
+div.GoalCard:nth-child(7){
+    margin-left: 75px;
+    margin-top: 50px;
+    padding-top: 55px;
     border-radius: 50%;
     background-color: #FB9145;
+    height: 300px;
+    width: 300px;
+}
+
+div.GoalCard:nth-child(8){
+    margin-left: 95px;
+    border-radius: 50%;
+    margin-top: 25px;
+    padding-top: 15px;
+    background-color: #C9A6B7;
+    height: 250px;
+    width: 250px;
+}
+
+
+div.GoalCard:nth-child(9){
+    margin-left: 36px;
+    border-radius: 50%;
+    background-color: #FFBE5E;
     padding-top: 15px;
     height: 250px;
     width: 250px;
 }
 
-div.GoalCard:nth-child(5){
+div.GoalCard:nth-child(10){
     margin-left: 36px;
     border-radius: 50%;
     margin-top: 25px;
     background-color: #C9A6B7;
     height: 200px;
     width: 200px;
+}
+
+form.Goals-form{
+    margin-left: 36px;
+    font-family: 'Roboto',sans-serif;
+    color: #7986BE;
+    width:95%;
+    font-size: 1.25rem;
+}
+
+button.saveCheckIn{
+    background-color: #7986BE;
+    color: #B1B7D1;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+h2.Goals-form-header{
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    font-size: 60px;
+    padding-top: 20px;
+    
+}
+button.saveCheckIn:hover{
+    background-color: #7986BE;
+    color: white;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+input#goal{
+    width: 95%;
+    border-radius: .25rem;
+    border: none;
+    height: 38px;
+}
+
+input#steps{
+    width: 95%;
+    border-radius: .25rem;
+    border: none;
+    height: 38px;
 }
