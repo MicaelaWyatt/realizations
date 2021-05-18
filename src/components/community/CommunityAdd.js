@@ -43,7 +43,7 @@ export const RecommenedAddForm = () => {
     }
 
     return(
-        <form className="recommendation-form">
+        <form  autocomplete="off" className="recommendation-form">
         <h2 className="recommendation-form-header">Recommendation</h2>
         <fieldset>
             <div>

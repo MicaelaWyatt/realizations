@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { useHistory, useParams } from "react-router-dom"
 import { getGoalById, updateGoal } from "../modules/GoalsManager"
+import "./Goals.css"
 
 export const GoalEditForm = () => {
     const currentUser = parseInt(sessionStorage.getItem("realization_user"));
@@ -46,8 +47,8 @@ export const GoalEditForm = () => {
     },[]);
 
     return(
-        <form className="Goals-form">
-            <h2>Goals</h2>
+        <form autocomplete="off" className="Goals-form">
+            <h2 className="Goals-form-header">Goals</h2>
             <fieldset>
                 <div>
                     <label className="goalFormLabel">What is a goal you would like to set for yourself</label> 

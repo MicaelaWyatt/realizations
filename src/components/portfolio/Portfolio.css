@@ -35,6 +35,13 @@ h2.portfolio-header{
     padding-top: 20px;
     
 }
+h2.checkIn-form-header{
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    font-size: 60px;
+    padding-top: 20px;
+    
+}
 
 section.wellbeing-card{
     border: solid 3px #7986BE;
@@ -46,7 +53,7 @@ section.wellbeing-card{
 
 div.user-info-new{
     width: 50%;
-    margin-right: 100px;
+    margin-right: 800px;
     float: left;
     display: flex;
 }
@@ -134,4 +141,62 @@ div.PageModal.modal-header{
     background-color: #FB9145;
     font-family: 'Roboto',sans-serif;
     color: #F2EFFF;
+}
+
+form.checkIn-form{
+    margin-left: 36px;
+    font-family: 'Roboto',sans-serif;
+    color: #7986BE;
+    width:95%;
+    font-size: 1.25rem;
+}
+
+button.saveCheckIn{
+    background-color: #7986BE;
+    color: #B1B7D1;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+button.saveCheckIn:hover{
+    background-color: #7986BE;
+    color: white;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+h2.SelfGratitude-form-header{
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+    font-size: 60px;
+    padding-top: 20px;
+    
+}
+
+form.SelfGratitude-form{
+    margin-left: 36px;
+    font-family: 'Roboto',sans-serif;
+    color: #7986BE;
+    width:95%;
+    font-size: 1.25rem;
+}
+
+
+
+button.saveSelfGratitude{
+    background-color: #7986BE;
+    color: #B1B7D1;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+button.saveSelfGratitude:hover{
+    background-color: #7986BE;
+    color: white;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
 }

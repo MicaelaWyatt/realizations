@@ -37,21 +37,39 @@
   "selfGratitude": [
     {
       "userId": 1,
-      "content": "I love that people come to me for advice",
-      "timestamp": "05/07/2021, 09:43:31 AM",
-      "id": 2
+      "content": "test",
+      "timestamp": "05/18/2021, 03:12:16 AM",
+      "id": 7
     },
     {
       "userId": 1,
-      "content": "My boss said I was the perfect example of professionalism ",
-      "timestamp": "05/07/2021, 09:43:56 AM",
-      "id": 3
+      "content": "test",
+      "timestamp": "05/18/2021, 03:12:20 AM",
+      "id": 8
     },
     {
       "userId": 1,
-      "content": "I helped my friend out",
-      "timestamp": "05/07/2021, 11:11:22 AM",
-      "id": 4
+      "content": "test",
+      "timestamp": "05/18/2021, 03:14:52 AM",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "content": "test",
+      "timestamp": "05/18/2021, 03:14:58 AM",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "content": "test",
+      "timestamp": "05/18/2021, 03:18:04 AM",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "content": "test",
+      "timestamp": "05/18/2021, 03:18:10 AM",
+      "id": 12
     }
   ],
   "forgiveness": [
@@ -60,7 +78,7 @@
       "id": 1,
       "who": "dad",
       "offense": "for nagging me",
-      "resolved": true
+      "resolved": false
     },
     {
       "userId": 1,
@@ -73,7 +91,7 @@
       "userId": 1,
       "who": "Noa",
       "offense": "for nagging me",
-      "resolved": true,
+      "resolved": false,
       "id": 3
     },
     {
@@ -99,30 +117,16 @@
     },
     {
       "userId": 1,
-      "who": "my friend Reece",
-      "offense": "not returning my top",
-      "resolved": false,
-      "id": 7
-    },
-    {
-      "userId": 1,
       "who": "sister",
       "offense": "for not paying me back",
-      "resolved": false,
+      "resolved": true,
       "id": 8
     },
     {
       "userId": 1,
       "who": "mom",
       "offense": "for nagging me",
-      "resolved": false,
-      "id": 9
-    },
-    {
-      "userId": 1,
-      "who": "mom",
-      "offense": "for nagging me",
-      "resolved": false,
+      "resolved": true,
       "id": 10
     },
     {
@@ -131,6 +135,48 @@
       "offense": "for not paying me back",
       "resolved": true,
       "id": 11
+    },
+    {
+      "userId": 1,
+      "who": "sister",
+      "offense": "not returning my top",
+      "resolved": false,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "who": "mom",
+      "offense": "for nagging me",
+      "resolved": false,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "who": "mom",
+      "offense": "for nagging me",
+      "resolved": false,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "who": "me",
+      "offense": "for self sabotaging",
+      "resolved": false,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "who": "noa",
+      "offense": "always calls when she is busy",
+      "resolved": false,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "who": "brandon",
+      "offense": "told me way to much info ",
+      "resolved": false,
+      "id": 17
     }
   ],
   "goals": [
@@ -147,13 +193,6 @@
       "steps": "instead of watching TikTok I want to code and work on my linked in",
       "timeStamp": "05/06/2021, 10:30:40 AM",
       "id": 3
-    },
-    {
-      "userId": 1,
-      "goal": " I want to be more grateful",
-      "steps": "when someone does something for me I will take a second to reflect and appreciate what they did",
-      "timeStamp": "05/07/2021, 09:40:52 AM",
-      "id": 4
     },
     {
       "userId": 1,
@@ -178,13 +217,6 @@
     },
     {
       "userId": 1,
-      "goal": "I want to code on my off time",
-      "steps": "on my lunch break I am going to walk before I eat ",
-      "timeStamp": "05/15/2021, 07:03:49 PM",
-      "id": 8
-    },
-    {
-      "userId": 1,
       "goal": "I want to walk outside more",
       "steps": "on my lunch break I am going to walk before I eat ",
       "timeStamp": "05/15/2021, 07:10:36 PM",
@@ -196,6 +228,13 @@
       "steps": "when someone does something for me I will take a second to reflect and appreciate what they did",
       "timeStamp": "05/15/2021, 07:10:45 PM",
       "id": 10
+    },
+    {
+      "userId": 1,
+      "goal": "I would love to start meeting new people",
+      "steps": "I will start setting up coffee dates",
+      "timeStamp": "05/18/2021, 03:09:54 AM",
+      "id": 11
     }
   ],
   "recommended": [

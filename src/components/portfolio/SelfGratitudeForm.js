@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { useHistory } from "react-router-dom"
 import {addSelfGratitude} from "../modules/SelfGratitudeManager"
+import "./Portfolio.css"
 
 export const SelfGratitudeAddForm = () => {
     const currentUser = parseInt(sessionStorage.getItem("realization_user"));
@@ -41,11 +42,11 @@ export const SelfGratitudeAddForm = () => {
     }
 
     return(
-        <form className="SelfGratitude-form">
+        <form autocomplete="off" className="SelfGratitude-form">
             <h2 className="SelfGratitude-form-header">Self Gratitude</h2>
             <fieldset>
                 <div>
-                    <label className="SelfGratitude-form-label">content</label>
+                    <label className="SelfGratitude-form-label">Acknowledgment</label>
                     <input type="text" id="content" onChange={handleControlledInputChange} required autoFocus className="form-control" value={gratitude.content}></input>
                 </div>
             </fieldset>

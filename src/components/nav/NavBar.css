@@ -9,6 +9,10 @@ a.nav-link{
     font-weight: bold;
     
 }
+a.nav-link:hover{
+    text-shadow: 2px 2px 5px #7986BE;
+    
+}
 
 a#a.nav-link{
    margin-left:500px;
@@ -54,7 +58,7 @@ nav{
     margin-right: 30px;
     float:right;
     height: 85px;
-    width: 1320px;
+   
     position: relative!important;
     
 }

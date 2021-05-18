@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { useHistory } from "react-router-dom"
 import {addCheckIn} from "../modules/CheckInManager"
+import "./Portfolio.css"
 
 export const CheckInAddForm = () => {
     const currentUser = parseInt(sessionStorage.getItem("realization_user"));
@@ -45,7 +46,7 @@ export const CheckInAddForm = () => {
     }
 
     return(
-        <form className="checkIn-form">
+        <form autocomplete="off" className="checkIn-form">
             <h2 className="checkIn-form-header">Check-in</h2>
             <fieldset>
                 <div>
