@@ -35,12 +35,12 @@ function MyVerticallyCenteredModal(props) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header className="cpHeader" closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
             Community Page
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className ="cpModal">
           <p>
           On your journey to bettering your self, it is important to stay motivated. 
           The purpose of the community page is to allow users to share content that has helped them stay motivated. 
@@ -55,9 +55,8 @@ return(
     <>
     <h2 className="community-header">Community</h2>
     <i class="bi bi-info-circle" variant="primary" onClick={() => setModalShow(true)}></i>
-        <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
+        <MyVerticallyCenteredModal className="CommunityModal" show={modalShow} onHide={() => setModalShow(false)} />
         <i class="bi bi-megaphone-fill" onClick={() => {history.push("/community/create")}} ></i>
-    <i class="bi bi-share-fill" onClick={() => {history.push("/community/create")}}></i>
     <section className="community-list">
         {recommendations.map(recommendation => <CommunityCard key={recommendation.id} recommendation={recommendation} handleDeleteRecommendation={handleDeleteRecommendation}/>)}
     </section>

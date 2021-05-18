@@ -37,3 +37,15 @@ i.bi.bi-megaphone-fill::before {
     color: #7986BE;
     margin-left: 7px;
 }
+
+div.cpModal.modal-body{
+    background-color: #FB9145;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.cpHeader.modal-header{
+    background-color: #FB9145;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
