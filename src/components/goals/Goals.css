@@ -179,3 +179,15 @@ input#steps{
     border: none;
     height: 38px;
 }
+
+div.GoalBody.modal-body{
+    background-color: #C9A6B7;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}
+
+div.GoalHead.modal-header{
+    background-color: #C9A6B7;
+    font-family: 'Roboto',sans-serif;
+    color: #F2EFFF;
+}

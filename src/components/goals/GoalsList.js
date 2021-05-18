@@ -37,12 +37,12 @@ function MyVerticallyCenteredModal(props) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header className="GoalHead" closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
             Goals Page
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="GoalBody">
           <p>
           The purpose of the goals page is to write down short term or long term goals you have for your life.
           Along with the steps you are going to take to make your goal happen.

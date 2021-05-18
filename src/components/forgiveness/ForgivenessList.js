@@ -53,12 +53,12 @@ function MyVerticallyCenteredModal(props) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header className="FHead" closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
             Goals Page
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="FBody">
           <p>
           Holding on to regret, pain, and resentment hurts others. 
           But it also hurts you. The purpose of the Forgiveness page is to write down things you want to forgive people for, and to read each card until the statement becomes true. 

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import { useHistory } from "react-router-dom"
 import { addRecommendation } from "../modules/CommunityManager"
+import "./Community.css" 
 
 export const RecommenedAddForm = () => {
     const currentUser = parseInt(sessionStorage.getItem("realization_user"));
