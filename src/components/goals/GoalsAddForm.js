@@ -40,7 +40,7 @@ export const GoalsAddForm = () => {
 }
     return(
         <form autocomplete="off" className="Goals-form">
-            <h2 className="Goals-form-header">Goals</h2>
+            <h2 className="Goals-form-header">Goal</h2>
             <fieldset>
                 <div>
                     <label className="goalFormLabel">What is a goal you would like to set for yourself</label> 

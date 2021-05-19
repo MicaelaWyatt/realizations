@@ -12,7 +12,7 @@
     },
     {
       "email": "noa@noa.com",
-      "name": "noa maes",
+      "name": "Noa Maes",
       "id": 3
     }
   ],
@@ -32,54 +32,31 @@
       "oneThing": "I could have more patients in stressful/ annoying situations",
       "timestamp": "05/12/2021, 09:20:29 AM",
       "id": 4
+    },
+    {
+      "userId": 1,
+      "theBest": "I went on vacation and now i get to present my app",
+      "theWorst": "my fear of flying got worse",
+      "oneThing": "check in with my friends more often",
+      "timestamp": "05/18/2021, 11:35:01 AM",
+      "id": 5
     }
   ],
   "selfGratitude": [
     {
       "userId": 1,
-      "content": "test",
-      "timestamp": "05/18/2021, 03:12:16 AM",
-      "id": 7
+      "content": "I love that the last time I went to Colorado I spent time with my great grandpa and listened to all his stories ",
+      "timestamp": "05/16/2021, 10:16:31 AM",
+      "id": 1
     },
     {
       "userId": 1,
-      "content": "test",
-      "timestamp": "05/18/2021, 03:12:20 AM",
-      "id": 8
-    },
-    {
-      "userId": 1,
-      "content": "test",
-      "timestamp": "05/18/2021, 03:14:52 AM",
-      "id": 9
-    },
-    {
-      "userId": 1,
-      "content": "test",
-      "timestamp": "05/18/2021, 03:14:58 AM",
-      "id": 10
-    },
-    {
-      "userId": 1,
-      "content": "test",
-      "timestamp": "05/18/2021, 03:18:04 AM",
-      "id": 11
-    },
-    {
-      "userId": 1,
-      "content": "test",
-      "timestamp": "05/18/2021, 03:18:10 AM",
-      "id": 12
+      "content": "I made an awesome app and I'm so proud of it",
+      "timestamp": "05/18/2021, 11:36:30 AM",
+      "id": 2
     }
   ],
   "forgiveness": [
-    {
-      "userId": 1,
-      "id": 1,
-      "who": "dad",
-      "offense": "for nagging me",
-      "resolved": false
-    },
     {
       "userId": 1,
       "who": "Noa",
@@ -89,17 +66,10 @@
     },
     {
       "userId": 1,
+      "id": 3,
       "who": "Noa",
-      "offense": "for nagging me",
-      "resolved": false,
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "who": "sister",
-      "offense": "for not paying me back",
-      "resolved": false,
-      "id": 4
+      "offense": "nagging me",
+      "resolved": true
     },
     {
       "userId": 1,
@@ -138,55 +108,27 @@
     },
     {
       "userId": 1,
-      "who": "sister",
-      "offense": "not returning my top",
-      "resolved": false,
-      "id": 12
+      "id": 15,
+      "who": "myself",
+      "offense": "self sabotaging",
+      "resolved": false
     },
     {
       "userId": 1,
-      "who": "mom",
-      "offense": "for nagging me",
-      "resolved": false,
-      "id": 13
+      "id": 16,
+      "who": "my sister",
+      "offense": "always calling me when she is busy",
+      "resolved": false
     },
     {
       "userId": 1,
-      "who": "mom",
-      "offense": "for nagging me",
-      "resolved": false,
-      "id": 14
-    },
-    {
-      "userId": 1,
-      "who": "me",
-      "offense": "for self sabotaging",
-      "resolved": false,
-      "id": 15
-    },
-    {
-      "userId": 1,
-      "who": "noa",
-      "offense": "always calls when she is busy",
-      "resolved": false,
-      "id": 16
-    },
-    {
-      "userId": 1,
-      "who": "brandon",
-      "offense": "told me way to much info ",
+      "who": "my friend",
+      "offense": "not paying me back",
       "resolved": false,
       "id": 17
     }
   ],
   "goals": [
-    {
-      "userId": 1,
-      "id": 2,
-      "goal": "I want to walk in the mornings",
-      "steps": "instead of watching TikTok I want to code and work on my linked in",
-      "timestamp": "05/04/2021, 11:28:45 PM"
-    },
     {
       "userId": 1,
       "goal": "I want to code on my off time",
@@ -203,64 +145,58 @@
     },
     {
       "userId": 1,
-      "goal": "I want to code on my off time",
-      "steps": "instead of watching TikTok I want to code and work on my linked in",
-      "timeStamp": "05/15/2021, 07:03:33 PM",
-      "id": 6
-    },
-    {
-      "userId": 1,
-      "goal": "I want to code on my off time",
-      "steps": "instead of watching TikTok I want to code and work on my linked in",
-      "timeStamp": "05/15/2021, 07:03:41 PM",
-      "id": 7
-    },
-    {
-      "userId": 1,
-      "goal": "I want to walk outside more",
-      "steps": "on my lunch break I am going to walk before I eat ",
-      "timeStamp": "05/15/2021, 07:10:36 PM",
-      "id": 9
-    },
-    {
-      "userId": 1,
-      "goal": "I want to know why this isn't working",
-      "steps": "when someone does something for me I will take a second to reflect and appreciate what they did",
-      "timeStamp": "05/15/2021, 07:10:45 PM",
-      "id": 10
-    },
-    {
-      "userId": 1,
       "goal": "I would love to start meeting new people",
       "steps": "I will start setting up coffee dates",
       "timeStamp": "05/18/2021, 03:09:54 AM",
       "id": 11
+    },
+    {
+      "userId": 1,
+      "goal": "I want to cook more ",
+      "steps": "once a week I will cook a new dish to make me more confident in the kitchen",
+      "timeStamp": "05/18/2021, 10:46:57 AM",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "goal": "I want to read more",
+      "steps": "I will take 15 minutes a day to read",
+      "timeStamp": "05/18/2021, 11:37:08 AM",
+      "id": 13
     }
   ],
   "recommended": [
     {
-      "userId": 1,
-      "title": "Joe Rogan episode #1609",
-      "note": "I loved this podcast it was super inspiring",
-      "link": "https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr",
-      "timestamp": "04/30/2021, 03:38:05 PM",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "title": "Joe Rogan episode #1609",
-      "note": "I couldn't type in these input fields but after 3 minutes of looking I found the problem ",
-      "link": "https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr",
-      "timestamp": "05/06/2021, 10:33:03 AM",
-      "id": 3
+      "userId": 3,
+      "title": "The Possibility Principle ",
+      "note": "Hey guys check out this book, it completely changed my life. ",
+      "link": "https://www.amazon.com/Possibility-Principle-Quantum-Physics-Improve-ebook/dp/B073XBY88R",
+      "timestamp": "05/18/2021, 09:55:02 AM",
+      "id": 5
     },
     {
       "userId": 3,
-      "title": "Joe Rogan episode #1699",
-      "note": "I couldn't type in these input fields but after 3 minutes of looking I found the problem ",
+      "title": "Joe Rogan Podcast #1169",
+      "note": "I think you guys will love this podcast!",
       "link": "https://open.spotify.com/episode/2aB2swgyXqbFA06AxPlFmr",
-      "timestamp": "05/06/2021, 10:55:31 AM",
-      "id": 4
+      "timestamp": "05/18/2021, 10:15:07 AM",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "The Power of Intention",
+      "note": "This Linkedin article was amazing, it really changed my thinking on reevaluating life",
+      "link": "https://www.linkedin.com/pulse/checking-power-reflection-intention-action-optimize-time-kat-cole/",
+      "timestamp": "05/18/2021, 10:27:32 AM"
+    },
+    {
+      "userId": 1,
+      "title": "Impaulsive Charlie Rocket episode",
+      "note": "this was very inspirational",
+      "link": "https://podcasts.apple.com/us/podcast/charlie-rocket-300-lb-music-millionaire-to-ironman/id1442164847?i=1000436842381",
+      "timestamp": "05/18/2021, 11:39:08 AM",
+      "id": 8
     }
   ]
 }
