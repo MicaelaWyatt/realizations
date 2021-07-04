@@ -21,5 +21,9 @@ json-server -p 8088 -w database.json
 
 Now go back to your first tab and copy this in your terminal 
 ```bash
+
+https://user-images.githubusercontent.com/78985306/124373965-b6fbf680-dc5c-11eb-8e83-ce4c41615a0f.mp4
+
+
 npm start 
 ```
