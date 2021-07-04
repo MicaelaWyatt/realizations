@@ -6,7 +6,7 @@ Each user will have a portfolio where they can record check-ins about where they
 
 users can go to their goals page to track short term and long term plans they have for their life 
 
-(https://user-images.githubusercontent.com/78985306/124373965-b6fbf680-dc5c-11eb-8e83-ce4c41615a0f.mp4)
+<img src="./gif.mp4" alt="My Project GIF" width="500" height="600">
 
 
 ## Installations
