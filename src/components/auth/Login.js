@@ -45,10 +45,10 @@ export const Login = () => {
             </dialog>
             <section>
                 <form className="form--login" onSubmit={handleLogin}>
-                    <h1>Realizations</h1>
-                    <h2>Please sign in</h2>
+                    <h1 id="login" >Realizations</h1>
+                    <h2 id="login">Please sign in</h2>
                     <fieldset>
-                        <label htmlFor="inputEmail"> Email address </label>
+                        <label id="login" htmlFor="inputEmail"> Email address </label>
                         <input type="email"
                             id="email"
                             className="form-control"
@@ -58,14 +58,14 @@ export const Login = () => {
                             onChange={handleInputChange} />
                     </fieldset>
                     <fieldset>
-                        <button type="submit">
+                        <button id="login" type="submit">
                             Sign in
                         </button>
                     </fieldset>
                 </form>
             </section>
             <section className="link--register">
-                <Link to="/register">Register for an account</Link>
+                <Link className="registerLink" to="/register">Register for an account</Link>
             </section>
         </main>
     )

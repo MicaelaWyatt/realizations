@@ -1,0 +1,68 @@
+h1#login{
+    margin-top: 8% !important;
+    margin-left: 29%;
+
+}
+
+h2#login{
+    margin-left: 29%;
+    color: #7986BE;
+    font-family: 'Roboto', sans-serif;
+}
+input#email.form-control{
+    width: 600px;
+    margin-left: 29% !important;
+    margin-bottom: 10px;
+    
+    }
+
+input#lastName.form-control{
+    width: 600px;
+    margin-left: 29% !important;
+    margin-bottom: 10px;
+        
+    }
+
+input#firstName.form-control{
+    width: 600px;
+    margin-left: 29% !important;
+    margin-bottom: 10px;
+        
+     }
+
+label#login{
+    margin-left: 29% !important;
+    color: #7986BE !important;
+}
+button#login{
+    margin-left: 29%;
+} 
+
+h1.mb-3{
+    margin-right: 15% !important;
+} 
+
+ section.link--register{
+    margin-left: 29% !important;
+  
+}
+
+a.registerLink{
+    color: #7986BE !important;
+}
+
+button#login{
+    background-color: #7986BE;
+    color: #B1B7D1;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}
+
+button#login:hover{
+    background-color: #7986BE;
+    color: white;
+    border: #7986BE ;
+    margin-top:  10px;
+    border-radius: .25rem;
+}

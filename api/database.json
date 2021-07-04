@@ -40,6 +40,14 @@
       "oneThing": "check in with my friends more often",
       "timestamp": "05/18/2021, 11:35:01 AM",
       "id": 5
+    },
+    {
+      "userId": 1,
+      "theBest": "The backend has been going so well, and we are going to graduating soon.",
+      "theWorst": " I'm so exited to get a job doing something I love. I've been so busy lately my mind is going to overload.",
+      "oneThing": "I could spend a little more time with my family",
+      "timestamp": "07/03/2021, 09:16:31 PM",
+      "id": 6
     }
   ],
   "selfGratitude": [
@@ -111,14 +119,14 @@
       "id": 15,
       "who": "myself",
       "offense": "self sabotaging",
-      "resolved": false
+      "resolved": true
     },
     {
       "userId": 1,
       "id": 16,
       "who": "my sister",
       "offense": "always calling me when she is busy",
-      "resolved": false
+      "resolved": true
     },
     {
       "userId": 1,
@@ -126,6 +134,27 @@
       "offense": "not paying me back",
       "resolved": false,
       "id": 17
+    },
+    {
+      "userId": 1,
+      "who": "myself ",
+      "offense": "not taking care of myself as much as I should ",
+      "resolved": false,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "who": "Brett",
+      "offense": "for showing up 15 minutes late",
+      "resolved": false,
+      "id": 19
+    },
+    {
+      "userId": 1,
+      "who": "my friend ",
+      "offense": "for not talking to me when they needed to ",
+      "resolved": false,
+      "id": 20
     }
   ],
   "goals": [
@@ -163,6 +192,27 @@
       "steps": "I will take 15 minutes a day to read",
       "timeStamp": "05/18/2021, 11:37:08 AM",
       "id": 13
+    },
+    {
+      "userId": 1,
+      "id": 14,
+      "goal": "To get this website looking beautiful",
+      "steps": "11",
+      "timestamp": "07/03/2021, 11:39:44 PM"
+    },
+    {
+      "userId": 1,
+      "goal": "one day I think it would be really cool to work on one of the GTA games. (Become a video game coder)",
+      "steps": "I would have to start learning languages that would help me code games",
+      "timeStamp": "07/03/2021, 11:06:26 PM",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "goal": "I would love to get to my goal weight by my 20th birthday",
+      "steps": "I can't do any more cheat days",
+      "timeStamp": "07/03/2021, 11:09:18 PM",
+      "id": 16
     }
   ],
   "recommended": [
