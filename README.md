@@ -6,6 +6,7 @@ Each user will have a portfolio where they can record check-ins about where they
 
 users can go to their goals page to track short term and long term plans they have for their life 
 
+(https://user-images.githubusercontent.com/78985306/124373965-b6fbf680-dc5c-11eb-8e83-ce4c41615a0f.mp4)
 
 
 ## Installations
@@ -22,7 +23,6 @@ json-server -p 8088 -w database.json
 Now go back to your first tab and copy this in your terminal 
 ```bash
 
-https://user-images.githubusercontent.com/78985306/124373965-b6fbf680-dc5c-11eb-8e83-ce4c41615a0f.mp4
 
 
 npm start 
