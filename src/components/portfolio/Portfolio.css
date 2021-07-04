@@ -200,3 +200,7 @@ button.saveSelfGratitude:hover{
     margin-top:  10px;
     border-radius: .25rem;
 }
+
+aside.SelfGratitude-list{
+    position: sticky ;
+}
