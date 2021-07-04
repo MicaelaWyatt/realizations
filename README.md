@@ -6,7 +6,7 @@ Each user will have a portfolio where they can record check-ins about where they
 
 users can go to their goals page to track short term and long term plans they have for their life 
 
-<img src="./screenRecord.gif" alt="My Project GIF" width="500" height="600">
+<img src="./screenRecord.gif" alt="My Project GIF">
 
 
 ## Installations
